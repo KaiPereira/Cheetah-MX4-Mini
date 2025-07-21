@@ -38,5 +38,8 @@ Anyways, next I forgot, but I need caps on VCAP so that the internal voltage of 
 And then next, I'll add resetting and booting, which took me a really long time to figure out, but with some friends help, I got it down pretty good.
 
 ![[Pasted image 20250721015754.png]]
-And then after that, I need to add my main crystal in
+And then after that, I need to added my main crystal in. I chose 25 MHz because it's better for USB and ethernet clock accuracy for some complex reason, but it does.
+
+![[Pasted image 20250721020815.png]]
+
 
