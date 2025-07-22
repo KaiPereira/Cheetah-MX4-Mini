@@ -62,4 +62,16 @@ I'm also going to have it where when the USB-C is plugged in, it's going to powe
 
 ![[Pasted image 20250721225653.png]]
 
-The MCU is looking pretty sick now! Time to implement CAN in!
+The MCU is looking pretty sick now! Time to implement CAN in! But while researching whether to put CAN in or now, I found out that the TMC2209 doesn't actually support it, and instead I need UART. So I actually did finish implementing it, but now I just need to use UART instead so I'm not going to bother.
+
+Something I neglected though, was adding in the PSU input for the board, so let's add that real quick. You'll notice the board is constantly being changed with some new formatting, just because everything is getting bigger too.
+
+And now we have the PSU in the top corner.
+
+![[Pasted image 20250722165346.png]]
+It might be a bit wrong, but I'll figure that out in a bit, for now, we need to convert the 12/24V down to 3.3V for the MCU.
+
+It's a bit complicate to wire, but basically just steps down to 3V3, and then stabilizes and protects it using some capacitors and diodes, and then it needs some internal voltage too, which is what the FB pin is for.
+
+![[Pasted image 20250722165430.png]]
+And just like that, we have a buck converter for the PSU! But I still kind of need to convert the 5V from the USB down to 3.3V for the MCU, so I might need to re-use the current buck converter if I can, or add another one...
