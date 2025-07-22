@@ -52,6 +52,8 @@ First of all, I added Ferrite beads to VDDA so it doesn't receive any noise from
 After that, I implemented SWD header debugging so I could debug the programming and manually flash and stuff.
 
 ![[Pasted image 20250721180218.png]]
-Now there's some more things I need on the MCU, but I want to work on the SD Card and USB peripherals.
+Now there's some more things I need on the MCU, but I want to work on the SD Card and USB peripherals. First I'm going to put the SD Card in, because that one made a bit more sense to me, everything is basically data or power/GND and then you just put pull-ups on data's and pull-downs on powers.
+
+![[Pasted image 20250721185006.png]]
 
 
