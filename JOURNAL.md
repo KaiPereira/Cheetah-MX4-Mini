@@ -56,4 +56,10 @@ Now there's some more things I need on the MCU, but I want to work on the SD Car
 
 ![[Pasted image 20250721185006.png]]
 
+And now I just have to add the USB-C and CAN ports, I chose USB because it's pretty modern and there's also no harm in having CAN, especially because it's such a high quality board, I think enterprises will like it.
 
+I'm also going to have it where when the USB-C is plugged in, it's going to power the board, but you can also power it with an external power supply, this is just really convenient for development.
+
+![[Pasted image 20250721225653.png]]
+
+The MCU is looking pretty sick now! Time to implement CAN in!
