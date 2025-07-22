@@ -4,7 +4,7 @@ author: Kai Pereira
 description: A modern driver board for a 3D printer
 created_at: 2025-07-20
 ---
-## Day 1 - This is a **bad** idea - July 20th
+## Day 1 - This is a **bad** idea - July 20th - 6 Hours
 
 I've decided to build a complex 3D printer driver board, similar to the Manta M4P or the SKR Mini E3, but with some added features I have yet to decide.
 
@@ -41,5 +41,17 @@ And then next, I'll add resetting and booting, which took me a really long time 
 And then after that, I need to added my main crystal in. I chose 25 MHz because it's better for USB and ethernet clock accuracy for some complex reason, but it does.
 
 ![[Pasted image 20250721020815.png]]
+
+## Day 2 - Finishing MCU Schematic
+
+I got quite a bit of work done on the MCU yesterday, but today, let's finish it off, and potentially we can get started on working on the motor drivers.
+
+First of all, I added Ferrite beads to VDDA so it doesn't receive any noise from the standard power line:
+
+![[Pasted image 20250721180109.png]]
+After that, I implemented SWD header debugging so I could debug the programming and manually flash and stuff.
+
+![[Pasted image 20250721180218.png]]
+Now there's some more things I need on the MCU, but I want to work on the SD Card and USB peripherals.
 
 
