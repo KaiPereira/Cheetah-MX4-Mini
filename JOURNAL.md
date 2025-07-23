@@ -42,7 +42,7 @@ And then after that, I need to added my main crystal in. I chose 25 MHz because 
 
 ![[Pasted image 20250721020815.png]]
 
-## Day 2 - Finishing MCU Schematic
+## Day 2 - Finishing MCU Schematic - 10 Hours
 
 I got quite a bit of work done on the MCU yesterday, but today, let's finish it off, and potentially we can get started on working on the motor drivers.
 
@@ -79,3 +79,8 @@ And just like that, we have a buck converter for the PSU! But I still kind of ne
 
 But anyways, after reaching out to some people, they suggest I use a different buck converter because of the bad switching frequency, and also convert to 5V instead of 3.3V and then use an LDO to get from a 5V rail to 3.3V. So after a bit research, I'm just going to use the TPS54331 chip.
 
+So after an absurdly long time, I got the buck converter wired for 12/24V to 5V.
+
+![[Pasted image 20250723124747.png]]
+
+I know I don't journal everything I do with this schematic because there's so much stuff, but I'm constantly making iterations, so I also replaced all the new labels with power labels and re-organized some stuff.
