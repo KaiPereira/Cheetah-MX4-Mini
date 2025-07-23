@@ -74,4 +74,8 @@ It might be a bit wrong, but I'll figure that out in a bit, for now, we need to 
 It's a bit complicate to wire, but basically just steps down to 3V3, and then stabilizes and protects it using some capacitors and diodes, and then it needs some internal voltage too, which is what the FB pin is for.
 
 ![[Pasted image 20250722165430.png]]
+
 And just like that, we have a buck converter for the PSU! But I still kind of need to convert the 5V from the USB down to 3.3V for the MCU, so I might need to re-use the current buck converter if I can, or add another one...
+
+But anyways, after reaching out to some people, they suggest I use a different buck converter because of the bad switching frequency, and also convert to 5V instead of 3.3V and then use an LDO to get from a 5V rail to 3.3V. So after a bit research, I'm just going to use the TPS54331 chip.
+
