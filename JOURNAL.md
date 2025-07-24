@@ -84,3 +84,19 @@ So after an absurdly long time, I got the buck converter wired for 12/24V to 5V.
 ![[Pasted image 20250723124747.png]]
 
 I know I don't journal everything I do with this schematic because there's so much stuff, but I'm constantly making iterations, so I also replaced all the new labels with power labels and re-organized some stuff.
+
+Anyways, that's the majority of the MCU stuff wired now. I spent a really long time working on this stuff today, and I got a lot done!
+
+## Day 3 - Power and Drivers
+
+Today was all about finishing the power schematic, and adding in the stepper drivers and maybe some other things into the schematic.
+
+So first things first, I need to have a common 5V rail. You see, both the USB and the PSU with the buck converter, are going to output 5V, but they can't both output them at once, so I need to output only one of them if they're both on. I'm going to prioritize the PSU, because the PSU also provides a 12/24V power, so it's going to be preferential if they're both connected.
+
+I'll use a simple P-Mosfet circuit:
+
+![[Pasted image 20250723171957.png]]
+
+And then I need to add a linear regulator/LDO to step down the 5V to 3.3V for the MCU and some other operations. You see, I need the 12/24V for the steppers, the 5V rail for some fan gate and other operations, and then the 3.3V for the MCU and stuff, so it's important that I have all of these rails separate. I'm going to use the same LDO as the Manta M4P, the AMS1117 and then of course decouple it to stabilize the voltage.
+
+![[Pasted image 20250723172121.png]]
