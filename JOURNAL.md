@@ -108,3 +108,7 @@ So let's add the first motor driver... it's a bit tough to wire, but I think thi
 ![[Pasted image 20250723205431.png]]
 
 Now I'm going to add the endstop pins... I want to be able to switch between sensorless and endstop homing, so I'm going to include both of them, just as separate GPIO's. The Manta M4P does a jumper switch approach instead, but I'm not low on GPIO's, so I feel like controlling this in firmware is more convenient.
+
+While adding the endstops, I also fixed the wiring for the TMC2209 silent step stick, because I was basically wiring it for the IC instead of the module, and I also added caps and pullups/pulldowns and whatnot.
+
+![[Pasted image 20250724002036.png]]
