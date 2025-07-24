@@ -11634,7 +11634,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "C"
 			(at 381 53.3399 0)
 			(effects
 				(font

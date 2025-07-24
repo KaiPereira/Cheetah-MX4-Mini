@@ -106,3 +106,5 @@ Now... we can finally get to working on the stepper drivers! The MCU and power i
 So let's add the first motor driver... it's a bit tough to wire, but I think this should be good. I'm using UART to control everything and then I expose it to a 4 pin connector for the steppers.
 
 ![[Pasted image 20250723205431.png]]
+
+Now I'm going to add the endstop pins... I want to be able to switch between sensorless and endstop homing, so I'm going to include both of them, just as separate GPIO's. The Manta M4P does a jumper switch approach instead, but I'm not low on GPIO's, so I feel like controlling this in firmware is more convenient.
