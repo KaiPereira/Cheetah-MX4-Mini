@@ -100,3 +100,9 @@ I'll use a simple P-Mosfet circuit:
 And then I need to add a linear regulator/LDO to step down the 5V to 3.3V for the MCU and some other operations. You see, I need the 12/24V for the steppers, the 5V rail for some fan gate and other operations, and then the 3.3V for the MCU and stuff, so it's important that I have all of these rails separate. I'm going to use the same LDO as the Manta M4P, the AMS1117 and then of course decouple it to stabilize the voltage.
 
 ![[Pasted image 20250723172121.png]]
+
+Now... we can finally get to working on the stepper drivers! The MCU and power is finished so let's add the X driver, I'm going with stepstick, because I like how easy it is to assemble and it has a bunch of extra features which are nice, and it looks sick on boards instead of using an onboard chip.
+
+So let's add the first motor driver... it's a bit tough to wire, but I think this should be good. I'm using UART to control everything and then I expose it to a 4 pin connector for the steppers.
+
+![[Pasted image 20250723205431.png]]
