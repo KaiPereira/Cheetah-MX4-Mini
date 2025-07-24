@@ -12453,10 +12453,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8e4964ad-282f-4838-a61b-23ab0664870e")
 		(property "Reference" "C19"
-			(at 129.54 26.6699 0)
+			(at 117.856 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12465,7 +12464,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 129.54 29.2099 0)
+			(at 117.856 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12937,10 +12936,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "aa1df5a0-7494-4cd4-8b25-49951f4347e5")
 		(property "Reference" "R10"
-			(at 107.95 36.8299 0)
+			(at 98.806 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,7 +12947,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 107.95 39.3699 0)
+			(at 98.806 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13576,10 +13574,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c337a55d-f90c-4688-bba3-a08acebc6566")
 		(property "Reference" "R9"
-			(at 107.95 29.2099 0)
+			(at 99.06 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13585,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 107.95 31.7499 0)
+			(at 99.06 32.004 0)
 			(effects
 				(font
 					(size 1.27 1.27)
