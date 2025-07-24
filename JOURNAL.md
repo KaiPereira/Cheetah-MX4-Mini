@@ -112,3 +112,7 @@ Now I'm going to add the endstop pins... I want to be able to switch between sen
 While adding the endstops, I also fixed the wiring for the TMC2209 silent step stick, because I was basically wiring it for the IC instead of the module, and I also added caps and pullups/pulldowns and whatnot.
 
 ![[Pasted image 20250724002036.png]]
+
+And then I kind of forgot to add decoupling caps on the power pins so here:
+
+![[Pasted image 20250724005344.png]]
