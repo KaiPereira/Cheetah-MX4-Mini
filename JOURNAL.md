@@ -150,3 +150,7 @@ Now I can just multiply this for the 3 thermistors I want:
 Next, I'm going to add a connector for a servo port, because people sometimes like to have a servo for things like a bed leveler or a filament changer.
 
 ![[Pasted image 20250725003545.png]]
+
+And then I can do this cool thing, where I add an inductor probe connector, but this also functions as a BLTouch port using both the servo port AND this inductor prob connector, so it's like a triple function.
+
+![[Pasted image 20250725010157.png]]
