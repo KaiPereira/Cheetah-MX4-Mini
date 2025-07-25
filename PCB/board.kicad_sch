@@ -7942,12 +7942,6 @@
 		(uuid "986aafca-bca8-4ad9-948a-23d30f0344a6")
 	)
 	(junction
-		(at 176.53 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a15290ba-816f-40bc-85f6-8ad03888ec52")
-	)
-	(junction
 		(at 270.51 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8024,12 +8018,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b8c23a-4a5c-4e92-8672-2c78358e7cce")
-	)
-	(junction
-		(at 176.53 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d58abc67-4121-4819-bf98-9334514e4573")
 	)
 	(junction
 		(at 39.37 92.71)
@@ -8471,16 +8459,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 176.53 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32bdefa1-2017-47c5-8598-ba2dba47596c")
-	)
-	(wire
-		(pts
 			(xy 102.87 99.06) (xy 104.14 99.06)
 		)
 		(stroke
@@ -8638,16 +8616,6 @@
 			(type default)
 		)
 		(uuid "502f489f-451d-46b6-98f7-a48c950dc97c")
-	)
-	(wire
-		(pts
-			(xy 176.53 101.6) (xy 176.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "528e85a3-ef43-4b86-83a7-af670c17699d")
 	)
 	(wire
 		(pts
@@ -9871,16 +9839,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 176.53 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7da0ff-28c6-4fdf-b51a-cc2cae2c8ce0")
-	)
-	(wire
-		(pts
 			(xy 39.37 100.33) (xy 39.37 116.84)
 		)
 		(stroke
@@ -10243,7 +10201,7 @@
 	)
 	(global_label "SDMMC1_CMD"
 		(shape input)
-		(at 176.53 109.22 180)
+		(at 176.53 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10253,7 +10211,7 @@
 		)
 		(uuid "69f9fc85-79bb-4d3d-a81a-2f2d2fb7bdbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.724 109.22 0)
+			(at 160.724 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
