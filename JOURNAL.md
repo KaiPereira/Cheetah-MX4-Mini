@@ -87,7 +87,7 @@ I know I don't journal everything I do with this schematic because there's so mu
 
 Anyways, that's the majority of the MCU stuff wired now. I spent a really long time working on this stuff today, and I got a lot done!
 
-## Day 3 - Power and Drivers
+## Day 3 - Power and Drivers - 10 Hours
 
 Today was all about finishing the power schematic, and adding in the stepper drivers and maybe some other things into the schematic.
 
@@ -130,3 +130,16 @@ Now, I'm like 85% confident that the schematic for the motor driver is functiona
 Now the schematic is looking INSANELY cool.
 
 ![[Pasted image 20250724181354.png]]
+
+Now this day actually took me a really long time, because the motor drivers kept on having to be re-iterated on, and the parts were pretty complicated. At least I finally have the main part of the board on, so I can kind of get to adding features I want.
+
+## Day 4 - Funtime :D
+
+Today was all about adding cool features I want on the board like fans, thermistors, etc.
+
+All the wiring should be easier from here on out happily, but I still need to be wary about protection and stuff.
+
+So first thing I'm going to add to the board, is the thermistors. I've decided on going with 3 thermistors because if people want more, they can always add an I2C bus, but most people aren't using more than 3. The connector is just GND with an IO pin, with some pullups and a protection for transient voltage spikes/surges.
+
+![[Pasted image 20250724215625.png]]
+
