@@ -151,6 +151,6 @@ Next, I'm going to add a connector for a servo port, because people sometimes li
 
 ![[Pasted image 20250725003545.png]]
 
-And then I can do this cool thing, where I add an inductor probe connector, but this also functions as a BLTouch port using both the servo port AND this inductor prob connector, so it's like a triple function.
+And then I can do this cool thing, where I add an inductive probe connector, but this also functions as a BLTouch port using both the servo port AND this inductive probe connector, so it's like a triple function.
 
 ![[Pasted image 20250725010157.png]]
