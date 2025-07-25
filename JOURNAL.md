@@ -122,3 +122,11 @@ And then after that, I looked into it a bit more, and I messed up the single lin
 ![[Pasted image 20250724174813.png]]
 
 After that, I planned out all the UART pins on the MCU so I didn't use them up accidently.
+
+Now, I'm like 85% confident that the schematic for the motor driver is functional, so I'm confident enough to clean up the schematic, and add all 4 drivers in (x, y, z, e0).
+
+![[Pasted image 20250724181300.png]]
+
+Now the schematic is looking INSANELY cool.
+
+![[Pasted image 20250724181354.png]]
