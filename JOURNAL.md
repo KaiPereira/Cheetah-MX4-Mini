@@ -143,3 +143,7 @@ So first thing I'm going to add to the board, is the thermistors. I've decided o
 
 ![[Pasted image 20250724215625.png]]
 
+Now I can just multiply this for the 3 thermistors I want:
+
+![[Pasted image 20250725000144.png]]
+

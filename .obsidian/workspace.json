@@ -168,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "480d6c1fd3177996",
+  "active": "d4e0bdf21e26b87f",
   "lastOpenFiles": [
+    "journal/Pasted image 20250725000144.png",
+    "journal/Pasted image 20250725000132.png",
     "PCB/board-backups/board-2025-07-24_215735.zip",
     "PCB/Pasted image 20250724215625.png",
     "Pasted image 20250724181354.png",
@@ -182,7 +184,6 @@
     "JOURNAL.md",
     "PCB/board-backups/board-2025-07-23_172400.zip",
     "Pasted image 20250723172121.png",
-    "Pasted image 20250723171957.png",
     "PCB/board-backups/board-2025-07-22_165754.zip",
     "PCB/~board.kicad_sch.lck",
     "PCB/~board.kicad_pcb.lck",
@@ -190,7 +191,6 @@
     "PCB/board-backups/board-2025-07-22_165606.zip",
     "PCB/board-backups/board-2025-07-22_165554.zip",
     "PCB/board-backups/board-2025-07-21_020604.zip",
-    "PCB/#auto_saved_files#",
-    "PCB/_autosave-board.kicad_sch"
+    "PCB/#auto_saved_files#"
   ]
 }
