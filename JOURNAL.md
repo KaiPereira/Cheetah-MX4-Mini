@@ -147,3 +147,6 @@ Now I can just multiply this for the 3 thermistors I want:
 
 ![[Pasted image 20250725000144.png]]
 
+Next, I'm going to add a connector for a servo port, because people sometimes like to have a servo for things like a bed leveler or a filament changer.
+
+![[Pasted image 20250725003545.png]]
