@@ -8267,6 +8267,12 @@
 		(uuid "3064870f-d153-42c5-9c21-26ab7163e6d6")
 	)
 	(junction
+		(at 88.9 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "360d8bc2-46db-4134-84a0-f0a673aabc1f")
+	)
+	(junction
 		(at 204.47 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8915,6 +8921,12 @@
 		(uuid "ff8c160a-61d5-4c56-ac3e-5444106d7fec")
 	)
 	(junction
+		(at 50.8 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd9d43a-201d-443e-a47c-a6e63b5c6427")
+	)
+	(junction
 		(at 311.15 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8939,10 +8951,6 @@
 	(no_connect
 		(at 359.41 33.02)
 		(uuid "1d794f49-41e7-48b5-bdba-052270d2518d")
-	)
-	(no_connect
-		(at 43.18 39.37)
-		(uuid "83cebbd3-771c-4f8f-838d-7e4de8cbfb47")
 	)
 	(no_connect
 		(at 191.77 20.32)
@@ -9503,6 +9511,16 @@
 			(type default)
 		)
 		(uuid "21d167bd-b5d1-480a-86b0-389a3aac1cc8")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 50.8 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d40406-85d5-4e70-8615-00dcf3fddde5")
 	)
 	(wire
 		(pts
@@ -10686,6 +10704,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 64.77) (xy 88.9 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e4edf1-788a-4d4a-ab8e-9f04c8d1fb63")
+	)
+	(wire
+		(pts
 			(xy 365.76 154.94) (xy 373.38 154.94)
 		)
 		(stroke
@@ -10936,7 +10964,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 74.93) (xy 120.65 74.93)
+			(xy 86.36 74.93) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -12143,6 +12171,16 @@
 			(type default)
 		)
 		(uuid "fc76158b-4a08-47ac-87eb-f84d56539af3")
+	)
+	(wire
+		(pts
+			(xy 88.9 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0c6ae8-c11f-4eb2-ad24-61aac0dfe9cd")
 	)
 	(wire
 		(pts
@@ -14544,7 +14582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000µF"
+		(property "Value" "100µF"
 			(at 85.09 29.21 0)
 			(effects
 				(font
@@ -18777,7 +18815,7 @@
 		(dnp no)
 		(uuid "470ab667-9dc3-47a5-8fcc-bab2f2682b3a")
 		(property "Reference" "R8"
-			(at 46.99 39.116 90)
+			(at 53.086 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18785,7 +18823,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 46.99 41.656 90)
+			(at 53.086 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22934,7 +22972,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 36.83 0)
+		(at 50.8 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22942,7 +22980,7 @@
 		(dnp no)
 		(uuid "8b3bf015-38ad-4c1f-b902-cd726bfc4ca8")
 		(property "Reference" "#PWR015"
-			(at 50.8 43.18 0)
+			(at 50.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22951,7 +22989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.864 37.846 0)
+			(at 54.864 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22959,7 +22997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 36.83 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22968,7 +23006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 36.83 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22977,7 +23015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 36.83 0)
+			(at 50.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27626,6 +27664,73 @@
 			(project ""
 				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc7eb8b2-3b05-4472-8d9f-982ef8420937")
+		(property "Reference" "R48"
+			(at 46.99 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 42.672 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 41.148 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 46.99 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8021e2e7-3b84-4b88-98c7-d943d6c9c935")
+		)
+		(pin "2"
+			(uuid "d4fb8922-acc8-4836-8cbd-99c321d6dcc7")
+		)
+		(instances
+			(project "board"
+				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
+					(reference "R48")
 					(unit 1)
 				)
 			)
