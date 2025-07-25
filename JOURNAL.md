@@ -116,3 +116,9 @@ While adding the endstops, I also fixed the wiring for the TMC2209 silent step s
 And then I kind of forgot to add decoupling caps on the power pins so here:
 
 ![[Pasted image 20250724005344.png]]
+
+And then after that, I looked into it a bit more, and I messed up the single line UART, you need to converge both the RX and TX UART pins to one line, but I was just using one IO.
+
+![[Pasted image 20250724174813.png]]
+
+After that, I planned out all the UART pins on the MCU so I didn't use them up accidently.
