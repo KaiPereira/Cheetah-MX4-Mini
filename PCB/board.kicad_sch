@@ -9271,10 +9271,6 @@
 		(at 191.77 20.32)
 		(uuid "a1f1fe48-8bfa-41de-a2b5-ea674686eede")
 	)
-	(no_connect
-		(at 323.85 53.34)
-		(uuid "b6072e6e-539a-4c00-a2ac-40c3d49dae3f")
-	)
 	(wire
 		(pts
 			(xy 39.37 154.94) (xy 38.1 154.94)
@@ -11683,6 +11679,28 @@
 			)
 		)
 	)
+	(global_label "DRIVERX_MOSI"
+		(shape input)
+		(at 323.85 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "359c373d-daec-40ff-ad3c-d1680686bbc3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.4391 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRIVEX_SLP"
 		(shape input)
 		(at 323.85 55.88 180)
@@ -12163,6 +12181,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVERX_MISO"
+		(shape input)
+		(at 323.85 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7bd6c15a-45b8-446e-a8b5-e4c12bc2e7a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 307.4391 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
