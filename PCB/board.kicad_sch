@@ -8315,12 +8315,6 @@
 		(uuid "69ec96f2-3d41-41b3-96b9-92c9d9de6760")
 	)
 	(junction
-		(at 311.15 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d47192d-e639-407b-98fc-26bf8c9a6015")
-	)
-	(junction
 		(at 78.74 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9386,16 +9380,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 50.8) (xy 311.15 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf3cb80-1790-4f9e-81a3-da92e418ecaa")
-	)
-	(wire
-		(pts
 			(xy 30.48 116.84) (xy 39.37 116.84)
 		)
 		(stroke
@@ -10056,7 +10040,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 55.88) (xy 313.69 55.88)
+			(xy 312.42 55.88) (xy 313.69 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10523,16 +10507,6 @@
 			(type default)
 		)
 		(uuid "f0399500-fbac-4590-a198-480e41e7755f")
-	)
-	(wire
-		(pts
-			(xy 311.15 55.88) (xy 311.15 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e9f723-7b60-45f7-9b56-cb14c0bdca59")
 	)
 	(wire
 		(pts
@@ -11768,28 +11742,6 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_RX"
-		(shape input)
-		(at 303.53 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aeaf4577-08f7-43db-ae00-2220a11a8d28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.5058 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "THERMO1"
 		(shape input)
 		(at 222.25 116.84 0)
@@ -12144,7 +12096,7 @@
 	)
 	(global_label "DRIVEX_TX"
 		(shape input)
-		(at 303.53 50.8 180)
+		(at 304.8 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12154,7 +12106,7 @@
 		)
 		(uuid "d7300d71-c0ce-4c14-97d8-4cb71627541c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.8082 50.8 0)
+			(at 292.0782 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18517,7 +18469,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 307.34 50.8 90)
+		(at 308.61 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18526,7 +18478,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a134fc4-2590-488a-aefc-bf29d62a1868")
 		(property "Reference" "R20"
-			(at 307.34 44.45 90)
+			(at 308.61 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18534,7 +18486,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 307.34 46.99 90)
+			(at 308.61 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18542,7 +18494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 307.34 52.578 90)
+			(at 308.61 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18551,7 +18503,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 307.34 50.8 0)
+			(at 308.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18560,7 +18512,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 307.34 50.8 0)
+			(at 308.61 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21470,74 +21422,6 @@
 			(project ""
 				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 307.34 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaabda96-fa1a-40c2-865f-98a8e0f48a91")
-		(property "Reference" "R21"
-			(at 307.34 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 307.34 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 307.34 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 307.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 307.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78343dec-330a-444b-a2d6-962fc80488ea")
-		)
-		(pin "2"
-			(uuid "c4ff789f-4b29-4408-95c5-59307bb336d9")
-		)
-		(instances
-			(project "board"
-				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
-					(reference "R21")
 					(unit 1)
 				)
 			)
