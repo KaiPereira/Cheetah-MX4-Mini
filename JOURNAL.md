@@ -161,7 +161,7 @@ Now I need to implement SPI on my stepsticks. Now this took me nearly 5 hours to
 
 And I'm just going to end off there because that took me so long to understand and figure out.
 
-## Day 5 - Touch-ups and Features
+## Day 5 - Touch-ups and Features - 6 Hours
 
 Now, I've figured out the core board, and I can add some more features like TFT and LCD screens and some other things.
 
@@ -194,3 +194,10 @@ Anyways, now I have a feeling I might need some pullups/pulldowns in some places
 And of course I was right, I was missing some pullups on the LCD displays, so I added that alongside a small decoupling cap:
 
 ![[Pasted image 20250727005416.png]]
+
+## Day 6 - Finishing the Schematic
+
+Now, the only thing I really need on my board is the fan ports and potentially some protection circuits/fine tuning?
+
+So now let's add in the fan connector... I want to support PWM control which allows fine control of the fan speed and whatnot, so I'll probably need a larger connector.
+
