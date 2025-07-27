@@ -12726,6 +12726,28 @@
 			)
 		)
 	)
+	(global_label "DRIVEY_CS"
+		(shape input)
+		(at 222.25 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02ed0b81-0d4a-498f-aae4-9c847c81515e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.1533 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRIVEX_CS"
 		(shape input)
 		(at 222.25 35.56 0)
@@ -12810,6 +12832,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVEE_EN"
+		(shape input)
+		(at 176.53 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0777d2d3-4755-4487-a432-9c1fe6d8caf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.5663 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13738,6 +13782,28 @@
 			)
 		)
 	)
+	(global_label "DRIVEY_STEP"
+		(shape input)
+		(at 222.25 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "431cb7aa-0f91-4413-9c23-85b7eac24075")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.2699 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRIVEZ_DIR"
 		(shape input)
 		(at 176.53 60.96 180)
@@ -14288,6 +14354,28 @@
 			)
 		)
 	)
+	(global_label "DRIVEE_STEP"
+		(shape input)
+		(at 176.53 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "690beb50-d57d-46a5-a2e2-a2e8062f7aab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.4497 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Y_STOP"
 		(shape input)
 		(at 176.53 68.58 180)
@@ -14350,6 +14438,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVEY_EN"
+		(shape input)
+		(at 222.25 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e10322c-1ae9-42d6-9811-cd9f16725a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.1533 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15410,6 +15520,28 @@
 			)
 		)
 	)
+	(global_label "DRIVEY_DIR"
+		(shape input)
+		(at 222.25 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abc8f0b3-e6d9-4349-b32c-8fcbbea1a8b6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 235.8186 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_SCK"
 		(shape input)
 		(at 374.65 135.89 180)
@@ -15582,6 +15714,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVEE_CS"
+		(shape input)
+		(at 176.53 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbd766f2-84f0-448f-98ad-3cfb82baafd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.5663 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -16088,6 +16242,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVEE_DIR"
+		(shape input)
+		(at 176.53 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d80a8726-8909-4bb8-b76b-f9042d91ce66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.901 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
