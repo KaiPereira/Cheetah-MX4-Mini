@@ -12726,7 +12726,7 @@
 			)
 		)
 	)
-	(global_label "DRIVERX_MISO"
+	(global_label "DRIVEE_MISO"
 		(shape input)
 		(at 312.42 245.11 180)
 		(fields_autoplaced yes)
@@ -12738,7 +12738,7 @@
 		)
 		(uuid "0421da8c-c6fa-44f4-a5d6-fdf0b855873d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.0091 245.11 0)
+			(at 297.3396 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,7 +12858,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEZ_EN"
+	(global_label "DRIVEE_EN"
 		(shape input)
 		(at 311.15 224.79 180)
 		(fields_autoplaced yes)
@@ -12870,7 +12870,7 @@
 		)
 		(uuid "0bdfc63e-d61e-4d93-993a-05268cfb8f9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.1258 224.79 0)
+			(at 298.1863 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13100,7 +13100,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_CS"
+	(global_label "DRIVEE_CS"
 		(shape input)
 		(at 374.65 262.89 180)
 		(fields_autoplaced yes)
@@ -13112,7 +13112,7 @@
 		)
 		(uuid "1e89f5a3-7c23-43af-b730-3727ad24609a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 361.6258 262.89 0)
+			(at 361.6863 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13276,7 +13276,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_SLP"
+	(global_label "DRIVEE_SLP"
 		(shape input)
 		(at 312.42 247.65 180)
 		(fields_autoplaced yes)
@@ -13288,7 +13288,7 @@
 		)
 		(uuid "266f6e2f-7020-42b6-997b-91d6920ae7a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.3677 247.65 0)
+			(at 298.4282 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13386,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_DIAG"
+	(global_label "DRIVEE_DIAG"
 		(shape input)
 		(at 388.62 219.71 0)
 		(fields_autoplaced yes)
@@ -13398,7 +13398,7 @@
 		)
 		(uuid "2bc161e2-e9f7-4ca0-919b-96a797c43027")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 403.3981 219.71 0)
+			(at 403.3376 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13474,7 +13474,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_STEP"
+	(global_label "DRIVEE_STEP"
 		(shape input)
 		(at 312.42 229.87 180)
 		(fields_autoplaced yes)
@@ -13486,7 +13486,7 @@
 		)
 		(uuid "31c2c3a8-f87b-45fa-9896-824a10300597")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.2792 229.87 0)
+			(at 297.3397 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13540,7 +13540,7 @@
 			)
 		)
 	)
-	(global_label "DRIVERX_MISO"
+	(global_label "DRIVEE_MISO"
 		(shape input)
 		(at 336.55 260.35 0)
 		(fields_autoplaced yes)
@@ -13552,7 +13552,7 @@
 		)
 		(uuid "376a6519-167c-421a-87cc-2732cafd916c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.9609 260.35 0)
+			(at 351.6304 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13562,7 +13562,7 @@
 			)
 		)
 	)
-	(global_label "DRIVERX_MOSI"
+	(global_label "DRIVEE_MOSI"
 		(shape input)
 		(at 336.55 267.97 0)
 		(fields_autoplaced yes)
@@ -13574,7 +13574,7 @@
 		)
 		(uuid "3858f06e-7012-4ae3-9323-44f4478ab043")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 352.9609 267.97 0)
+			(at 351.6304 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13650,7 +13650,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_SLP"
+	(global_label "DRIVEE_SLP"
 		(shape input)
 		(at 321.31 260.35 180)
 		(fields_autoplaced yes)
@@ -13662,7 +13662,7 @@
 		)
 		(uuid "3b39f788-ee01-4fac-9163-8669f6afc304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 307.2577 260.35 0)
+			(at 307.3182 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13804,7 +13804,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_SCK"
+	(global_label "DRIVEE_SCK"
 		(shape input)
 		(at 312.42 240.03 180)
 		(fields_autoplaced yes)
@@ -13816,7 +13816,7 @@
 		)
 		(uuid "49e3d67a-3b1a-44ad-8978-5840f0b23d8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.1258 240.03 0)
+			(at 298.1863 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13870,7 +13870,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_SCK"
+	(global_label "DRIVEE_SCK"
 		(shape input)
 		(at 336.55 265.43 0)
 		(fields_autoplaced yes)
@@ -13882,7 +13882,7 @@
 		)
 		(uuid "4b3194a6-aa9b-4eff-b685-19f8cc6f8f91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 350.8442 265.43 0)
+			(at 350.7837 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14684,7 +14684,7 @@
 			)
 		)
 	)
-	(global_label "X_STOP"
+	(global_label "E_STOP"
 		(shape input)
 		(at 373.38 243.84 180)
 		(fields_autoplaced yes)
@@ -14696,7 +14696,7 @@
 		)
 		(uuid "83725d23-de60-4dbb-9c8e-9413474978b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 363.4401 243.84 0)
+			(at 363.5006 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14860,7 +14860,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_CS"
+	(global_label "DRIVEE_CS"
 		(shape input)
 		(at 312.42 242.57 180)
 		(fields_autoplaced yes)
@@ -14872,7 +14872,7 @@
 		)
 		(uuid "8b0a05e3-1ef4-4392-b20d-dc82f102fb23")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.3958 242.57 0)
+			(at 299.4563 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15498,7 +15498,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_CS"
+	(global_label "DRIVEE_CS"
 		(shape input)
 		(at 336.55 262.89 0)
 		(fields_autoplaced yes)
@@ -15510,7 +15510,7 @@
 		)
 		(uuid "bab7f082-3335-459d-a927-888a5c5511e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 349.5742 262.89 0)
+			(at 349.5137 262.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15652,7 +15652,7 @@
 			)
 		)
 	)
-	(global_label "DRIVERX_MOSI"
+	(global_label "DRIVEE_MOSI"
 		(shape input)
 		(at 312.42 237.49 180)
 		(fields_autoplaced yes)
@@ -15664,7 +15664,7 @@
 		)
 		(uuid "bef8850e-6359-4b89-8417-6ca53b81b1f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.0091 237.49 0)
+			(at 297.3396 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16114,7 +16114,7 @@
 			)
 		)
 	)
-	(global_label "X_STOP"
+	(global_label "E_STOP"
 		(shape input)
 		(at 388.62 217.17 0)
 		(fields_autoplaced yes)
@@ -16126,7 +16126,7 @@
 		)
 		(uuid "dcf1368f-116c-40db-81f1-e18625b530ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 398.5599 217.17 0)
+			(at 398.4994 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16202,7 +16202,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_DIR"
+	(global_label "DRIVEE_DIR"
 		(shape input)
 		(at 312.42 232.41 180)
 		(fields_autoplaced yes)
@@ -16214,7 +16214,7 @@
 		)
 		(uuid "e283d5c6-2f4b-4cd8-9f03-c5973323ea2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.7305 232.41 0)
+			(at 298.791 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16576,7 +16576,7 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_DIAG"
+	(global_label "DRIVEE_DIAG"
 		(shape input)
 		(at 367.03 227.33 0)
 		(fields_autoplaced yes)
@@ -16588,7 +16588,7 @@
 		)
 		(uuid "f66ee5f5-c14c-4788-aa4d-50511d0ef388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.8081 227.33 0)
+			(at 381.7476 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
