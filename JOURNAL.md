@@ -186,3 +186,7 @@ This is the new connector that can toggle homing:
 ![[Pasted image 20250727002155.png]]
 
 It's pretty simple, it just bridges the endstop GPIO, and then you just configure it in software to disable the endstop.
+
+I've been constantly iterating and stuff while doing this, so all of this is taking much longer then how I'm putting it...
+
+Anyways, now I have a feeling I might need some pullups/pulldowns in some places? But aside from that, that's pretty much all the main features on the board I was aiming for, which is amazing!
