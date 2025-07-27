@@ -18861,7 +18861,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.682 69.85 90)
 			(effects
 				(font
@@ -20773,7 +20773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 122.682 59.69 90)
 			(effects
 				(font
@@ -21229,10 +21229,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "258ffe1f-2c37-4f9b-8dd2-224ad28d2c2e")
 		(property "Reference" "C13"
-			(at 80.01 62.2299 0)
+			(at 78.74 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21241,7 +21240,7 @@
 			)
 		)
 		(property "Value" "3.3nF"
-			(at 80.01 64.7699 0)
+			(at 78.74 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21249,7 +21248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 77.1652 67.31 0)
 			(effects
 				(font
@@ -23152,7 +23151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+		(property "Footprint" "Fuse:Fuse_Blade_Mini_directSolder"
 			(at 87.63 25.908 90)
 			(effects
 				(font
@@ -25324,7 +25323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.422 71.12 90)
 			(effects
 				(font
@@ -26297,7 +26296,7 @@
 		(dnp no)
 		(uuid "5f67d2e5-20a1-4090-8cdc-4b344d8c8a07")
 		(property "Reference" "C23"
-			(at 105.41 50.546 90)
+			(at 105.41 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26305,14 +26304,14 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 105.41 53.086 90)
+			(at 105.41 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 109.22 48.5648 0)
 			(effects
 				(font
@@ -26920,7 +26919,7 @@
 		(dnp no)
 		(uuid "688386b0-60b2-48e6-995f-1cc8eafc27e7")
 		(property "Reference" "C24"
-			(at 113.538 56.896 0)
+			(at 112.776 56.896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26929,7 +26928,7 @@
 			)
 		)
 		(property "Value" "47µF"
-			(at 113.538 59.436 0)
+			(at 112.776 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26937,7 +26936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 121.6152 62.23 0)
 			(effects
 				(font
@@ -28262,10 +28261,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ca3986b-a06c-45b9-884a-45e58c96a215")
 		(property "Reference" "R12"
-			(at 64.77 53.3399 0)
+			(at 65.532 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28274,7 +28272,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 64.77 55.8799 0)
+			(at 65.532 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28282,7 +28280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.452 54.61 90)
 			(effects
 				(font
@@ -29035,7 +29033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 59.3852 67.31 0)
 			(effects
 				(font
@@ -29707,7 +29705,7 @@
 		(dnp no)
 		(uuid "8c16bed2-9f40-4438-adf5-9633d2231c45")
 		(property "Reference" "D4"
-			(at 104.902 57.404 90)
+			(at 106.426 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29716,15 +29714,15 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 102.87 59.944 90)
+			(at 106.934 63.5 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 110.49 58.42 0)
 			(effects
 				(font
@@ -30416,10 +30414,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9658bf10-34bf-4bdf-98c6-49c064611a7f")
 		(property "Reference" "C21"
-			(at 69.85 62.2299 0)
+			(at 66.294 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30428,7 +30425,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 69.85 64.7699 0)
+			(at 66.294 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30436,7 +30433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 67.0052 67.31 0)
 			(effects
 				(font
@@ -31048,7 +31045,7 @@
 		(dnp no)
 		(uuid "a0ffd8b5-a15d-48ad-9d86-dacb3fad4d60")
 		(property "Reference" "C20"
-			(at 74.93 62.2299 0)
+			(at 66.04 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31057,7 +31054,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 74.93 64.7699 0)
+			(at 66.04 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31065,7 +31062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.0852 67.31 0)
 			(effects
 				(font
@@ -31720,10 +31717,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae030823-7e0b-465a-a544-2ed5f980017b")
 		(property "Reference" "R13"
-			(at 64.77 62.2299 0)
+			(at 58.42 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31732,7 +31728,7 @@
 			)
 		)
 		(property "Value" "11K"
-			(at 64.77 64.7699 0)
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31740,7 +31736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.452 63.5 90)
 			(effects
 				(font
@@ -33684,7 +33680,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cc27523f-9d2b-4adc-9478-0d3ad3b1101d")
 		(property "Reference" "#PWR017"
 			(at 105.41 46.99 0)
@@ -33696,7 +33691,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 45.72 0)
+			(at 109.22 42.164 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36639,7 +36634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN8040_8x8.15mm"
 			(at 115.57 54.61 0)
 			(effects
 				(font
