@@ -11614,6 +11614,28 @@
 			)
 		)
 	)
+	(global_label "SD_DET"
+		(shape input)
+		(at 222.25 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24892019-874c-45c4-a2a6-1fce189885e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.0689 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_BTN"
 		(shape input)
 		(at 176.53 116.84 180)
@@ -12098,6 +12120,28 @@
 			)
 		)
 	)
+	(global_label "SD_MISO"
+		(shape input)
+		(at 222.25 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "627c8de1-6ad5-4c45-abe2-ac37199050e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.2785 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRIVERX_MISO"
 		(shape input)
 		(at 326.39 52.07 180)
@@ -12208,6 +12252,50 @@
 			)
 		)
 	)
+	(global_label "SD_MOSI"
+		(shape input)
+		(at 222.25 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "716d6a02-3636-47df-b72a-f7f4d5eb09f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.2785 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LCD_ENCB"
+		(shape input)
+		(at 176.53 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "721fc315-913e-4906-b7c1-fc6d9a5d3bf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.9896 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SD_DET"
 		(shape input)
 		(at 167.64 198.12 0)
@@ -12243,6 +12331,28 @@
 		(uuid "75913eea-5600-4e53-aebb-c9c15f7d1006")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 60.8609 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_SCK"
+		(shape input)
+		(at 222.25 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "779f124e-699e-4456-9b02-ad54658c79ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.4318 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,6 +12406,28 @@
 			)
 		)
 	)
+	(global_label "LCD_ENCA"
+		(shape input)
+		(at 176.53 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7fe914fc-6634-4973-a362-d5fba06d4555")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164.171 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MISO"
 		(shape input)
 		(at 176.53 86.36 180)
@@ -12314,6 +12446,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DRIVEX_CS"
+		(shape input)
+		(at 240.03 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83d835b9-6e28-4b9c-b025-2ee2e8f5c0c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.0542 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -12727,6 +12881,28 @@
 		(uuid "a072d4dd-bd1e-46fc-8ce4-d3f248c425f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 253.7195 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 222.25 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0cddadd-7b09-4d64-90c5-ec9e66bbf06b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.1618 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13220,28 +13396,6 @@
 			)
 		)
 	)
-	(global_label "DRIVEX_CS"
-		(shape input)
-		(at 222.25 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbf83c37-58fa-4d0a-ab30-dd1c829eaea8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.2742 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDMMC1_D3"
 		(shape input)
 		(at 30.48 104.14 180)
@@ -13308,7 +13462,7 @@
 			)
 		)
 	)
-	(global_label "LCD_CD"
+	(global_label "LCD_CS"
 		(shape input)
 		(at 139.7 190.5 0)
 		(fields_autoplaced yes)
@@ -13320,7 +13474,7 @@
 		)
 		(uuid "e55a36a5-143f-4d4c-a534-118bc3cf8e61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.7609 190.5 0)
+			(at 149.7004 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17210,7 +17364,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56d9ebda-6130-4054-90cf-74a28f98e732")
 		(property "Reference" "R11"
 			(at 78.74 69.8499 0)
@@ -20164,7 +20317,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0ffd8b5-a15d-48ad-9d86-dacb3fad4d60")
 		(property "Reference" "C20"
 			(at 74.93 62.2299 0)
@@ -20300,7 +20452,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a42bd6d0-a304-4acf-99d8-7bdfb0c1507c")
 		(property "Reference" "#PWR019"
 			(at 134.62 36.83 0)
