@@ -205,5 +205,9 @@ Anyways, PWM is a bit chonky, so instead I'm going to use this cool switching ci
 
 ![[Pasted image 20250727021323.png]]
 
+And then, after that I just added the basic wiring for the heating elements. It's the same as the fans, but the heating elements draw a LOT more current, so I might need to wire them a bit differently than what I currently have? But I'm not too sure...
+
+![[Pasted image 20250727024944.png]]
+![[Pasted image 20250727025002.png]]
 
 
