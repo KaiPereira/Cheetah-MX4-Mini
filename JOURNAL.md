@@ -160,3 +160,11 @@ Now I need to implement SPI on my stepsticks. Now this took me nearly 5 hours to
 ![[Pasted image 20250726170427.png]]
 
 And I'm just going to end off there because that took me so long to understand and figure out.
+
+## Day 5 - Touch-ups and Features
+
+Now, I've figured out the core board, and I can add some more features like TFT and LCD screens and some other things.
+
+So first I implemented a TFT display using UART:
+
+![[Pasted image 20250726170600.png]]
