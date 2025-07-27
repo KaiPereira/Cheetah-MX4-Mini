@@ -201,3 +201,9 @@ Now, the only thing I really need on my board is the fan ports and potentially s
 
 So now let's add in the fan connector... I want to support PWM control which allows fine control of the fan speed and whatnot, so I'll probably need a larger connector.
 
+Anyways, PWM is a bit chonky, so instead I'm going to use this cool switching circuit that basically like quickly turns the fans on and off to kind of replicate PWM but worse but it's smaller which I kind of like and I don't really need precision for a 3D printer.
+
+![[Pasted image 20250727021323.png]]
+
+
+
