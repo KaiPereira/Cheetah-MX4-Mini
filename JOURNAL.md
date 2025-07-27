@@ -168,3 +168,5 @@ Now, I've figured out the core board, and I can add some more features like TFT 
 So first I implemented a TFT display using UART:
 
 ![[Pasted image 20250726170600.png]]
+
+and next, I wanted to be able to support LCD
