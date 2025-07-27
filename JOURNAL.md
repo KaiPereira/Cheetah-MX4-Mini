@@ -190,3 +190,7 @@ It's pretty simple, it just bridges the endstop GPIO, and then you just configur
 I've been constantly iterating and stuff while doing this, so all of this is taking much longer then how I'm putting it...
 
 Anyways, now I have a feeling I might need some pullups/pulldowns in some places? But aside from that, that's pretty much all the main features on the board I was aiming for, which is amazing!
+
+And of course I was right, I was missing some pullups on the LCD displays, so I added that alongside a small decoupling cap:
+
+![[Pasted image 20250727005416.png]]
