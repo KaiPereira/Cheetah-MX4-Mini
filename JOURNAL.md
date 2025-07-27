@@ -169,4 +169,20 @@ So first I implemented a TFT display using UART:
 
 ![[Pasted image 20250726170600.png]]
 
-and next, I wanted to be able to support LCD
+and next, I wanted to be able to support LCD. I want to support SD cards too, so I need a connector for SD card LCD and normal parallel LCD displays, so I have to make 2 like so:
+
+It took a really long time to figure out which pins needed peripherals and fitting them onto the MCU, but I got it down pretty nicely:
+
+![[Pasted image 20250727002000.png]]
+
+And now, I needed to refine my drivers even more. I wanted to add a jumper so that I could toggle between endstop and sensorless homing, so I only needed 1 label which would free up my MCU a bit better. I also needed to add EN apparently, so I wired that in too and cleaned up my SPI.
+
+Not just that, but I also added all the drivers, all this took me a pretty long time, but I'm just summing it up:
+
+![[Pasted image 20250727002125.png]]
+
+This is the new connector that can toggle homing:
+
+![[Pasted image 20250727002155.png]]
+
+It's pretty simple, it just bridges the endstop GPIO, and then you just configure it in software to disable the endstop.

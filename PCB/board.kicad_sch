@@ -16708,7 +16708,7 @@
 			)
 		)
 	)
-	(global_label "LCD_CD"
+	(global_label "LCD_CS"
 		(shape input)
 		(at 176.53 121.92 180)
 		(fields_autoplaced yes)
@@ -16720,7 +16720,7 @@
 		)
 		(uuid "f0c5e6ee-af89-47a1-b121-9b6420190ac5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4691 121.92 0)
+			(at 166.5296 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
