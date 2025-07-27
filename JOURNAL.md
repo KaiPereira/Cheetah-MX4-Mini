@@ -133,7 +133,7 @@ Now the schematic is looking INSANELY cool.
 
 Now this day actually took me a really long time, because the motor drivers kept on having to be re-iterated on, and the parts were pretty complicated. At least I finally have the main part of the board on, so I can kind of get to adding features I want.
 
-## Day 4 - Funtime :D
+## Day 4 - Funtime :D - 10 Hours
 
 Today was all about adding cool features I want on the board like fans, thermistors, etc.
 
@@ -154,3 +154,9 @@ Next, I'm going to add a connector for a servo port, because people sometimes li
 And then I can do this cool thing, where I add an inductive probe connector, but this also functions as a BLTouch port using both the servo port AND this inductive probe connector, so it's like a triple function.
 
 ![[Pasted image 20250725010157.png]]
+
+Now I need to implement SPI on my stepsticks. Now this took me nearly 5 hours to figure out and implement, and I still think it's a bit wrong, but it's the right idea. Basically lots of TMC drivers only support SPI instead of UART, so you need to support both and be able to switch between them.
+
+![[Pasted image 20250726170427.png]]
+
+And I'm just going to end off there because that took me so long to understand and figure out.
