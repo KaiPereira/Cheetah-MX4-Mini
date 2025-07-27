@@ -18791,7 +18791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 83.5152 31.75 0)
 			(effects
 				(font
@@ -21317,7 +21317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 69.85 26.67 0)
 			(effects
 				(font
@@ -22940,7 +22940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Horizontal_TabDown"
 			(at 77.47 27.94 0)
 			(effects
 				(font
@@ -23152,7 +23152,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 87.63 25.908 90)
 			(effects
 				(font
