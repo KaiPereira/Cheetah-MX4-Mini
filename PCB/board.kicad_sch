@@ -22842,7 +22842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 77.47 27.94 0)
 			(effects
 				(font
@@ -24393,7 +24393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_2114_3652Metric"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 46.99 31.75 0)
 			(effects
 				(font
@@ -26276,7 +26276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 209.55 193.04 0)
 			(effects
 				(font
@@ -28042,7 +28042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.452 54.61 90)
 			(effects
 				(font
@@ -30600,7 +30600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 254 193.04 0)
 			(effects
 				(font
@@ -31495,7 +31495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.452 63.5 90)
 			(effects
 				(font
