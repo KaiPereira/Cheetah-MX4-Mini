@@ -195,7 +195,7 @@ And of course I was right, I was missing some pullups on the LCD displays, so I 
 
 ![[Pasted image 20250727005416.png]]
 
-## Day 6 - Finishing the Schematic
+## Day 6 - Finishing the Schematic - 10 Hours
 
 Now, the only thing I really need on my board is the fan ports and potentially some protection circuits/fine tuning?
 
@@ -210,4 +210,15 @@ And then, after that I just added the basic wiring for the heating elements. It'
 ![[Pasted image 20250727024944.png]]
 ![[Pasted image 20250727025002.png]]
 
+But anyways, now I could finally work on adding footprints to every single part. This took me about 3-4 hours, but I got every single one except the motor stepsticks. Here's the basic protocol I got it down too:
+- Small (0.1uF) decoupling caps get 0603 capacitor footprints
+- Medium (>1uF) decoupling caps get 0805 footprints
+- Larger ones (>10uF) get electrolytic capacitors varying in size
+- Resistors with large current get 0805 footprints
+- Resistors with small amounts of current get 0603
 
+And then everything else was pretty much fully custom. The different connectors took a bit because you have to figure out the exact connector each thing is, and you don't really want to mess it up:
+
+![[Pasted image 20250728003242.png]]
+
+Now I just needed to add the footprint for the TMC stepsticks, which I think need to be fully custom, but I'll see when I research a bit more.
