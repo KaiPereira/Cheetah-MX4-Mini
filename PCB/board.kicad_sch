@@ -21634,7 +21634,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 137.16 227.33 0)
 			(effects
 				(font
@@ -26654,7 +26654,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 48.26 227.33 0)
 			(effects
 				(font
@@ -33263,7 +33263,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 222.25 187.96 0)
 			(effects
 				(font
@@ -33567,7 +33567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 92.71 227.33 0)
 			(effects
 				(font
@@ -35315,7 +35315,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 266.7 187.96 0)
 			(effects
 				(font
