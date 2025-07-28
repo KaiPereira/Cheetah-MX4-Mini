@@ -222,3 +222,9 @@ And then everything else was pretty much fully custom. The different connectors 
 ![[Pasted image 20250728003242.png]]
 
 Now I just needed to add the footprint for the TMC stepsticks, which I think need to be fully custom, but I'll see when I research a bit more.
+
+The TMC stepsticks took about an hour and a half, but I got a pretty nice footprint, and the tolerances are only like ± 0.015 mm which is nice.
+
+![[Pasted image 20250728015530.png]]
+
+Now I can just add this footprint in, and my schematic will be finished!!!
