@@ -227,4 +227,6 @@ The TMC stepsticks took about an hour and a half, but I got a pretty nice footpr
 
 ![[Pasted image 20250728015530.png]]
 
-Now I can just add this footprint in, and my schematic will be finished!!!
+Now I can just add this footprint in, and my schematic will be finished!!! I also fixed up some other footprints to handle some of the crazier loads, but this schematic looks beautiful!
+
+![[Pasted image 20250728021721.png]]
