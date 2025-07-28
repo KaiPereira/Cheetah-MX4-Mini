@@ -13004,7 +13004,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 200.66) (xy 30.48 200.66)
+			(xy 35.56 200.66) (xy 30.48 200.66)
 		)
 		(stroke
 			(width 0)
@@ -15394,7 +15394,7 @@
 	)
 	(global_label "SERVO"
 		(shape input)
-		(at 40.64 200.66 0)
+		(at 35.56 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15404,7 +15404,7 @@
 		)
 		(uuid "4cf93ba0-21cf-4d17-8beb-ee9db9bfe0f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.6728 200.66 0)
+			(at 44.5928 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,7 +18834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 25.4 198.12 0)
 			(effects
 				(font
@@ -35363,7 +35363,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 57.15 200.66 0)
 			(effects
 				(font
