@@ -7818,142 +7818,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TMC2209_SILENTSTEPSTICK:TMC2209_SILENTSTEPSTICK"
 			(pin_names
 				(offset 1.016)
@@ -9895,7 +9759,7 @@
 		(uuid "941e3b68-df92-4d7c-8a2b-d2bcb271616e")
 	)
 	(junction
-		(at 129.54 111.76)
+		(at 129.54 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94fd51b3-8bff-403a-b7a4-2f3bd5aadeac")
@@ -11800,7 +11664,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 111.76) (xy 129.54 111.76)
+			(xy 128.27 110.49) (xy 129.54 110.49)
 		)
 		(stroke
 			(width 0)
@@ -13320,7 +13184,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 130.81 111.76)
+			(xy 129.54 110.49) (xy 130.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -17180,7 +17044,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 128.27 111.76 180)
+		(at 128.27 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17190,7 +17054,7 @@
 		)
 		(uuid "a160fd2a-5eb9-401f-b5a6-0e6b13111ae7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5072 111.76 0)
+			(at 120.5072 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20367,7 +20231,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 129.54 104.14 0)
+		(at 129.54 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20376,7 +20240,7 @@
 		(fields_autoplaced yes)
 		(uuid "1854e4c5-168f-4799-8d9f-00faa1624335")
 		(property "Reference" "#PWR027"
-			(at 129.54 107.95 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20385,7 +20249,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 129.54 99.06 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20393,7 +20257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 104.14 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20402,7 +20266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 104.14 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20411,7 +20275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 129.54 104.14 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21793,7 +21657,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 116.332 102.87 0)
+			(at 117.348 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22258,7 +22122,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 111.76 0)
+		(at 140.97 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22267,7 +22131,7 @@
 		(fields_autoplaced yes)
 		(uuid "32bc932a-4780-465f-82cb-82ba7e552d5f")
 		(property "Reference" "#PWR06"
-			(at 140.97 118.11 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22276,7 +22140,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 116.84 0)
+			(at 140.97 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22284,7 +22148,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 111.76 0)
+			(at 140.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22293,7 +22157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 111.76 0)
+			(at 140.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22302,7 +22166,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 111.76 0)
+			(at 140.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22349,7 +22213,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical"
 			(at 259.08 95.25 0)
 			(effects
 				(font
@@ -25050,7 +24914,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 129.54 119.38 0)
+		(at 129.54 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25059,7 +24923,7 @@
 		(fields_autoplaced yes)
 		(uuid "53117909-2718-4bb4-aac0-5a902e55e545")
 		(property "Reference" "#PWR05"
-			(at 129.54 125.73 0)
+			(at 129.54 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25068,7 +24932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.54 124.46 0)
+			(at 129.54 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25076,7 +24940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 119.38 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25085,7 +24949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 119.38 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25094,7 +24958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 119.38 0)
+			(at 129.54 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25487,73 +25351,6 @@
 			(project "board"
 				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 109.22 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "577b54f9-a450-4a66-b5e7-31121a793692")
-		(property "Reference" "SW1"
-			(at 109.22 102.108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 109.22 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 109.22 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb4d8eec-967d-4c81-a42a-cb5795dfee0c")
-		)
-		(pin "2"
-			(uuid "f64a650f-ab60-4c3d-896e-add0345965b6")
-		)
-		(instances
-			(project "board"
-				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -27645,7 +27442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 257.81 54.61 0)
 			(effects
 				(font
@@ -32226,6 +32023,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba35d2c6-df29-4bd7-b696-b9a7102a2450")
+		(property "Reference" "SW1"
+			(at 109.22 101.092 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 103.632 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "526170a7-8d96-43c6-95e2-7d0cf62b157a")
+		)
+		(pin "2"
+			(uuid "84d37970-913f-4c3f-b812-19acc803a631")
+		)
+		(instances
+			(project "board"
+				(path "/93bdda59-fc0f-4b76-8be9-fa93964bed43"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 78.74 147.32 0)
 		(unit 1)
@@ -33474,7 +33338,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 129.54 115.57 0)
+		(at 129.54 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33482,7 +33346,7 @@
 		(dnp no)
 		(uuid "c96afba2-8930-4c6a-8f2a-ab6062caaa81")
 		(property "Reference" "C10"
-			(at 132.588 114.3 0)
+			(at 132.588 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33491,7 +33355,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 132.588 116.84 0)
+			(at 132.588 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33500,7 +33364,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 130.5052 119.38 0)
+			(at 130.5052 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33509,7 +33373,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 115.57 0)
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33518,7 +33382,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 129.54 115.57 0)
+			(at 129.54 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34282,7 +34146,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 135.89 111.76 0)
+		(at 135.89 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34290,7 +34154,7 @@
 		(dnp no)
 		(uuid "ce9be4aa-c664-4989-bcb3-bbdd3417468a")
 		(property "Reference" "SW2"
-			(at 136.144 104.14 0)
+			(at 136.144 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34298,15 +34162,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 136.144 106.68 0)
+			(at 136.144 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 106.68 0)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342"
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34315,7 +34179,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 106.68 0)
+			(at 135.89 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34324,7 +34188,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 135.89 111.76 0)
+			(at 135.89 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34615,7 +34479,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 129.54 107.95 0)
+		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34623,7 +34487,7 @@
 		(dnp no)
 		(uuid "d4777037-631c-43bb-b366-92c3ab98715a")
 		(property "Reference" "R2"
-			(at 123.698 106.172 0)
+			(at 123.444 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34632,7 +34496,7 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 123.698 108.712 0)
+			(at 123.444 107.442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34641,7 +34505,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 127.762 107.95 90)
+			(at 127.762 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34650,7 +34514,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 107.95 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34659,7 +34523,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 129.54 107.95 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
