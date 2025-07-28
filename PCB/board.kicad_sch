@@ -19321,7 +19321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "kai's library:TMC Stepstick"
 			(at 330.2 105.41 0)
 			(effects
 				(font
@@ -29819,7 +29819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "kai's library:TMC Stepstick"
 			(at 330.2 234.95 0)
 			(effects
 				(font
@@ -32174,7 +32174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "kai's library:TMC Stepstick"
 			(at 330.2 170.18 0)
 			(effects
 				(font
@@ -33656,7 +33656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TMC2209_SILENTSTEPSTICK:MODULE_TMC2209_SILENTSTEPSTICK"
+		(property "Footprint" "kai's library:TMC Stepstick"
 			(at 330.2 40.64 0)
 			(effects
 				(font
