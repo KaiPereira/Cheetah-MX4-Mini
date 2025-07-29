@@ -20863,7 +20863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "4.7µF"
 			(at 148.59 27.9399 0)
 			(effects
 				(font
@@ -28593,7 +28593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "4.7µF"
 			(at 119.126 27.94 0)
 			(effects
 				(font
