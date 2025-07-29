@@ -252,3 +252,18 @@ I think it's pretty good, but of course later, I'll ask for some suggestions fro
 Anyways, after that, I aligned all the motor drivers together, took me a solid 2 hours or so to get used to layout tools, but I got it pretty nice and precise:
 
 ![[Pasted image 20250729020705.png]]
+
+Now before I did more work on this, I posted this in Kicad and Reddit and got lots of good suggestions.
+
+![[Pasted image 20250729152900.png]]
+
+So I've switched the buck converter AND the LDO (though the LDO was a drop in replacement so I only changed the name), and I also fixed up the USB/PSU 5V switching mosfet.
+
+It was pretty boring so I'll just show the final schematic:
+
+![[Pasted image 20250729152952.png]]
+
+*I also added no-connect flags to the entire MCU, but no one really care about that*
+
+I then re-assigned all the footprints and went back to the PCB!
+
