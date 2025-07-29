@@ -18929,7 +18929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 64.77 0)
 			(effects
 				(font
@@ -18998,7 +18998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.2652 64.77 0)
 			(effects
 				(font
@@ -22809,7 +22809,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7µF"
+		(property "Value" "4.7µH"
 			(at 101.6 51.562 90)
 			(effects
 				(font
@@ -22817,7 +22817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Wuerth_HCM-7070"
 			(at 101.6 53.34 0)
 			(effects
 				(font
@@ -30364,7 +30364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.8152 67.31 0)
 			(effects
 				(font
@@ -33099,7 +33099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 97.4852 60.96 0)
 			(effects
 				(font

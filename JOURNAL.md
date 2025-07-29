@@ -235,7 +235,7 @@ And then finally, I had to add the footprints for the displays... AND EVERYTHING
 
 ![[Pasted image 20250728171131.png]]
 
-## Day 7 - The PCB
+## Day 7 - The PCB - 10 Hours
 
 Now today was about starting the PCB! I imported all the parts into Kicad but then noticed that lots of the parts weren't right. Specifically connectors and the crystal. The crystal had the wrong pinout and the LCD connectors were wrong. 
 
