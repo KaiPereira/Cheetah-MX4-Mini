@@ -20654,7 +20654,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05-1MP_P2.54mm_Latch6.5mm_Vertical"
 			(at 144.78 194.31 0)
 			(effects
 				(font
@@ -24184,7 +24184,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical"
 			(at 93.98 194.31 0)
 			(effects
 				(font
@@ -29263,7 +29263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05-1MP_P2.54mm_Latch6.5mm_Vertical"
 			(at 121.92 194.31 0)
 			(effects
 				(font
