@@ -26441,7 +26441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 26.67 90)
 			(effects
 				(font
@@ -28250,7 +28250,7 @@
 		(fields_autoplaced yes)
 		(uuid "887ca78c-6276-4b7b-8ec1-44a698868f19")
 		(property "Reference" "U8"
-			(at 83.82 52.07 0)
+			(at 83.82 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28258,7 +28258,7 @@
 			)
 		)
 		(property "Value" "AP63203WU"
-			(at 83.82 54.61 0)
+			(at 83.82 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30024,7 +30024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 99.822 36.83 90)
 			(effects
 				(font
