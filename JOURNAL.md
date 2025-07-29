@@ -247,4 +247,8 @@ This gives me a solid idea of where everything goes, and if stuff is right or wr
 
 ![[Pasted image 20250729004906.png]]
 
-I think it's pretty good, but of course later, I'll ask for some suggestions from some people.
+I think it's pretty good, but of course later, I'll ask for some suggestions from some people. 
+
+Anyways, after that, I aligned all the motor drivers together, took me a solid 2 hours or so to get used to layout tools, but I got it pretty nice and precise:
+
+![[Pasted image 20250729020705.png]]
