@@ -8969,6 +8969,16 @@
 		)
 		(uuid "421bd2d7-12d9-415f-a04c-3866b864e357")
 	)
+	(text "UART & SPI Support"
+		(exclude_from_sim no)
+		(at 387.858 5.588 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e7c657e-3359-47d5-acf6-502cc90e2197")
+	)
 	(text "SERVO/PROBE"
 		(exclude_from_sim no)
 		(at 22.352 179.324 0)
@@ -9059,6 +9069,16 @@
 			)
 		)
 		(uuid "e0be5bab-e820-4833-9e8b-02e290870516")
+	)
+	(text "Sensorless & Endstop Homing"
+		(exclude_from_sim no)
+		(at 392.43 8.128 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f71aaa0f-b9ed-4606-9860-b93ab4f04411")
 	)
 	(text "FANS"
 		(exclude_from_sim no)
@@ -21025,10 +21045,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "25c9c951-6617-4502-be37-79496c1aa769")
 		(property "Reference" "J37"
-			(at 67.31 17.78 0)
+			(at 66.04 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21036,7 +21055,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 67.31 20.32 0)
+			(at 66.04 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22579,7 +22598,7 @@
 		(dnp no)
 		(uuid "3d0ed6ac-5105-4a4a-9149-3bde5b86f750")
 		(property "Reference" "D2"
-			(at 87.122 26.924 90)
+			(at 87.122 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22588,7 +22607,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 87.122 28.956 90)
+			(at 87.122 29.21 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -22596,7 +22615,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 85.09 27.94 0)
 			(effects
 				(font
@@ -25961,7 +25980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 209.55 193.04 0)
 			(effects
 				(font
@@ -30215,7 +30234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 254 193.04 0)
 			(effects
 				(font
