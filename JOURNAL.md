@@ -237,3 +237,14 @@ And then finally, I had to add the footprints for the displays... AND EVERYTHING
 
 ## Day 7 - The PCB
 
+Now today was about starting the PCB! I imported all the parts into Kicad but then noticed that lots of the parts weren't right. Specifically connectors and the crystal. The crystal had the wrong pinout and the LCD connectors were wrong. 
+
+So I spent about 2 hours just fixing all the minor issues with my board and then got to the real stuff. First I distributed all the components so that similar components were by each other:
+
+![[Pasted image 20250729004812.png]]
+
+This gives me a solid idea of where everything goes, and if stuff is right or wrong. Next I worked on the MCU, now this is my first time organizing components for an MCU so I needed a lot of help from some people, but this is where I got so far:
+
+![[Pasted image 20250729004906.png]]
+
+I think it's pretty good, but of course later, I'll ask for some suggestions from some people.
