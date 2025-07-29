@@ -19067,7 +19067,7 @@
 				)
 			)
 		)
-		(property "Value" "TMC2209_SILENTSTEPSTICK"
+		(property "Value" "TMC Stepstick"
 			(at 330.2 82.55 0)
 			(effects
 				(font
@@ -29496,7 +29496,7 @@
 				)
 			)
 		)
-		(property "Value" "TMC2209_SILENTSTEPSTICK"
+		(property "Value" "TMC Stepstick"
 			(at 330.2 212.09 0)
 			(effects
 				(font
@@ -31782,7 +31782,7 @@
 				)
 			)
 		)
-		(property "Value" "TMC2209_SILENTSTEPSTICK"
+		(property "Value" "TMC Stepstick"
 			(at 330.2 147.32 0)
 			(effects
 				(font
@@ -33264,7 +33264,7 @@
 				)
 			)
 		)
-		(property "Value" "TMC2209_SILENTSTEPSTICK"
+		(property "Value" "TMC Stepstick"
 			(at 330.2 17.78 0)
 			(effects
 				(font
