@@ -230,3 +230,10 @@ The TMC stepsticks took about an hour and a half, but I got a pretty nice footpr
 Now I can just add this footprint in, and my schematic will be finished!!! I also fixed up some other footprints to handle some of the crazier loads, but this schematic looks beautiful!
 
 ![[Pasted image 20250728021721.png]]
+
+And then finally, I had to add the footprints for the displays... AND EVERYTHING IS FINALLY DONE!
+
+![[Pasted image 20250728171131.png]]
+
+## Day 7 - The PCB
+
