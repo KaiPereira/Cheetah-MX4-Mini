@@ -25619,7 +25619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 209.55 193.04 0)
 			(effects
 				(font
@@ -29472,7 +29472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 254 193.04 0)
 			(effects
 				(font
