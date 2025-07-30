@@ -280,3 +280,8 @@ Anyways, I then proceeded to spend a couple hours laying out all the components 
 Now this organization took way longer than I thought it would because LOTS of the footprints were off, and and then I had to keep on adding suggestions from people which made me change them more, like switching the buck and the LDO, and it's a never ending back and forth.
 
 Anyways there's still some stuff like the positioning on some of the things aren't right for the diodes that I fixed so I kind of need to fix that stuff.
+
+And after a bit of time and some more review from the guys on the KiCad discord server, I have a PRETTY solid organization:
+
+![[Pasted image 20250730001939.png]]
+
