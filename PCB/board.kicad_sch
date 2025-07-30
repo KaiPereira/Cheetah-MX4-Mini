@@ -31978,7 +31978,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "STP55NF06L"
 			(at 224.79 186.69 90)
 			(effects
 				(font
@@ -31986,7 +31986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 222.25 187.96 0)
 			(effects
 				(font
@@ -34214,7 +34214,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "STP55NF06L"
 			(at 269.24 186.69 90)
 			(effects
 				(font
@@ -34222,7 +34222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 266.7 187.96 0)
 			(effects
 				(font
