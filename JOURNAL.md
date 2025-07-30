@@ -293,3 +293,9 @@ I make it seem easy of course, but this is after like 4 rounds of iteration so w
 
 I posted this on the KiCad discord server and then Salmon (my favorite KiCad elf) pointed out that the NMOS's on the heaters aren't the right footprints! So now I gotta fix those! Also thanks so much to Salmon on the KiCad discord server, probably one of the most helpful people I've met online.
 
+And then after an insanely absurd amount of time, I've gotten to something very nice!
+
+![[Pasted image 20250730154025.png]]
+
+Now I just have to orient all the silkscreen so it's nice and organized, and then do the finishing alignments, and it'll be ready to route!
+
