@@ -265,5 +265,16 @@ It was pretty boring so I'll just show the final schematic:
 
 *I also added no-connect flags to the entire MCU, but no one really care about that*
 
-I then re-assigned all the footprints and went back to the PCB!
+I then re-assigned all the footprints and went back to the PCB! I did a bunch of organizing components some more, I'll show that in the next day though because there will be more to show.
 
+## Day 8 - Fully Organized PCB
+
+Now while organizing my PCB, I had to switch a lot of things, notable, every single diode footprint was off and a bunch of resistor sizing's and stuff were wrong too.
+
+It probably took me a solid 2 hours to get all the footprints straight for a second time but it turned out pretty well.
+
+Anyways, I then proceeded to spend a couple hours laying out all the components to be perfectly organized, and I got something very nice!
+
+![[Pasted image 20250729233321.png]]
+
+Now this organization took way longer than I thought it would because LOTS of the footprints were off, and and then I had to keep on adding suggestions from people which made me change them more, like switching the buck and the LDO, and it's a never ending back and forth
