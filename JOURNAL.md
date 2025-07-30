@@ -285,3 +285,11 @@ And after a bit of time and some more review from the guys on the KiCad discord 
 
 ![[Pasted image 20250730001939.png]]
 
+I then compressed all the parts together to get this:
+
+![[Pasted image 20250730024450.png]]
+
+I make it seem easy of course, but this is after like 4 rounds of iteration so when I go to route, it's pretty clean!
+
+I posted this on the KiCad discord server and then Salmon (my favorite KiCad elf) pointed out that the NMOS's on the heaters aren't the right footprints! So now I gotta fix those! Also thanks so much to Salmon on the KiCad discord server, probably one of the most helpful people I've met online.
+
