@@ -336,3 +336,7 @@ And then I got a really good suggestion to move the enstop connectors so that I 
 ![[Pasted image 20250731113428.png]]
 
 Looks WAY better! This is absolutely sick!
+
+After all this, I did all the signal pins from the MCU pretty much, I try to stick to one color going one way, the other color going the other way, and planning the routes out in your head beforehand helps alot!
+
+![[Pasted image 20250731143619.png]]
