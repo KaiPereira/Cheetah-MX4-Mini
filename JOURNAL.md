@@ -318,3 +318,9 @@ Now I got a lot of stuff to do, I gotta route this entire PCB and I don't have m
 First I added all the via's to the ground and power planes to connect the ratlines. I also fixed some intersecting parts which wouldn't work! Way less ratlines now!
 
 ![[Pasted image 20250730234508.png]]
+
+And then I usually start with the chonky things that take lots of current or voltage, you kind of just want to route these based off current size, voltage and noise levels, and also what's close:
+
+![[Pasted image 20250731021015.png]]
+
+Signal pins are small, high current is large, high voltage depends.
