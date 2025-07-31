@@ -330,3 +330,9 @@ And then I improved the power a bit more, and I wired some of the smaller stuff 
 ![Pasted image 20250731025725.png](journal/Pasted%20image%2020250731025725.png)
 
 Mind you, these screenshots are nearly 3 hours apart, this is NOT a short process. I'm also still a beginner, so I need a lot of help from others when designing this, so I'm constantly iterating on it!
+
+And then I got a really good suggestion to move the enstop connectors so that I could fit the SD Card on, so I deleted like half my traces and put it on!
+
+![[Pasted image 20250731113428.png]]
+
+Looks WAY better! This is absolutely sick!
