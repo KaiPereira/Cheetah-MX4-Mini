@@ -267,7 +267,7 @@ It was pretty boring so I'll just show the final schematic:
 
 I then re-assigned all the footprints and went back to the PCB! I did a bunch of organizing components some more, I'll show that in the next day though because there will be more to show.
 
-## Day 8 - Fully Organized PCB
+## Day 8 - Fully Organized PCB - 10 Hours
 
 Now while organizing my PCB, I had to switch a lot of things, notable, every single diode footprint was off and a bunch of resistor sizing's and stuff were wrong too.
 
@@ -308,3 +308,13 @@ I did a bit more messing around with the organization just to make it a bit clea
 Now the stackup of my board is going to be as follows: F.Cu, GND, POWER, B.Cu, so I'm going to add the 4 layers onto the board, and then do a power/GND fill:
 
 ![[Pasted image 20250730202943.png]]
+
+Anyways I'll save the rest of the routing for tomorrow!
+
+## Day 9 - Routing the PCB
+
+Now I got a lot of stuff to do, I gotta route this entire PCB and I don't have much time left to submit!
+
+First I added all the via's to the ground and power planes to connect the ratlines. I also fixed some intersecting parts which wouldn't work! Way less ratlines now!
+
+![[Pasted image 20250730234508.png]]
