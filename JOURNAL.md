@@ -299,3 +299,8 @@ And then after an insanely absurd amount of time, I've gotten to something very 
 
 Now I just have to orient all the silkscreen so it's nice and organized, and then do the finishing alignments, and it'll be ready to route!
 
+I also forgot, I still need to add some mounting holes, so after adding those, I added the edge to define the PCB, and it's pretty much ready to route!
+
+![[Pasted image 20250730195133.png]]
+
+
