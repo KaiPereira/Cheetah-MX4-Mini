@@ -324,3 +324,9 @@ And then I usually start with the chonky things that take lots of current or vol
 ![[Pasted image 20250731021015.png]]
 
 Signal pins are small, high current is large, high voltage depends.
+
+And then I improved the power a bit more, and I wired some of the smaller stuff on the board!
+
+![[Pasted image 20250731025725.png]]
+
+Mind you, these screenshots are nearly 3 hours apart, this is NOT a short process. I'm also still a beginner, so I need a lot of help from others when designing this, so I'm constantly iterating on it!
