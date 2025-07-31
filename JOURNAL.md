@@ -303,4 +303,8 @@ I also forgot, I still need to add some mounting holes, so after adding those, I
 
 ![[Pasted image 20250730195133.png]]
 
+I did a bit more messing around with the organization just to make it a bit cleaner to route, just moving parts basically so rat's are closer to each other.
 
+Now the stackup of my board is going to be as follows: F.Cu, GND, POWER, B.Cu, so I'm going to add the 4 layers onto the board, and then do a power/GND fill:
+
+![[Pasted image 20250730202943.png]]
