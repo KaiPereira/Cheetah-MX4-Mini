@@ -22,25 +22,25 @@ The first thing I had to decide on was the MCU. I decided on using the STM32H743
 
 So let's just add in the MCU:
 
-![[Pasted image 20250721015238.png]]
+![Pasted image 20250721015238.png](journal/Pasted%20image%2020250721015238.png)
 Then of course, I'm going to connect all the simple pins like VDD and GND:
 
-![[Pasted image 20250721015402.png]]
+![Pasted image 20250721015402.png](journal/Pasted%20image%2020250721015402.png)
 Next, each VDD needs a decoupling capacitor, and then a larger one for VDDA and VSSA:
 
-![[Pasted image 20250721015504.png]]
+![Pasted image 20250721015504.png](journal/Pasted%20image%2020250721015504.png)
 Keep in mind, while I'm going through these fast, lots of these decisions take me hours, because I've never done this before and I have to re-iterate.
 
 Anyways, next I forgot, but I need caps on VCAP so that the internal voltage of the chip is alright.
 
-![[Pasted image 20250721015649.png]]
+![Pasted image 20250721015649.png](journal/Pasted%20image%2020250721015649.png)
 
 And then next, I'll add resetting and booting, which took me a really long time to figure out, but with some friends help, I got it down pretty good.
 
-![[Pasted image 20250721015754.png]]
+![Pasted image 20250721015754.png](journal/Pasted%20image%2020250721015754.png)
 And then after that, I need to added my main crystal in. I chose 25 MHz because it's better for USB and ethernet clock accuracy for some complex reason, but it does.
 
-![[Pasted image 20250721020815.png]]
+![Pasted image 20250721020815.png](journal/Pasted%20image%2020250721020815.png)
 
 ## Day 2 - Finishing MCU Schematic - 10 Hours
 
@@ -48,19 +48,19 @@ I got quite a bit of work done on the MCU yesterday, but today, let's finish it 
 
 First of all, I added Ferrite beads to VDDA so it doesn't receive any noise from the standard power line:
 
-![[Pasted image 20250721180109.png]]
+![Pasted image 20250721180109.png](journal/Pasted%20image%2020250721180109.png)
 After that, I implemented SWD header debugging so I could debug the programming and manually flash and stuff.
 
-![[Pasted image 20250721180218.png]]
+![Pasted image 20250721180218.png](journal/Pasted%20image%2020250721180218.png)
 Now there's some more things I need on the MCU, but I want to work on the SD Card and USB peripherals. First I'm going to put the SD Card in, because that one made a bit more sense to me, everything is basically data or power/GND and then you just put pull-ups on data's and pull-downs on powers.
 
-![[Pasted image 20250721185006.png]]
+![Pasted image 20250721185006.png](journal/Pasted%20image%2020250721185006.png)
 
 And now I just have to add the USB-C and CAN ports, I chose USB because it's pretty modern and there's also no harm in having CAN, especially because it's such a high quality board, I think enterprises will like it.
 
 I'm also going to have it where when the USB-C is plugged in, it's going to power the board, but you can also power it with an external power supply, this is just really convenient for development.
 
-![[Pasted image 20250721225653.png]]
+![Pasted image 20250721225653.png](journal/Pasted%20image%2020250721225653.png)
 
 The MCU is looking pretty sick now! Time to implement CAN in! But while researching whether to put CAN in or now, I found out that the TMC2209 doesn't actually support it, and instead I need UART. So I actually did finish implementing it, but now I just need to use UART instead so I'm not going to bother.
 
@@ -68,12 +68,12 @@ Something I neglected though, was adding in the PSU input for the board, so let'
 
 And now we have the PSU in the top corner.
 
-![[Pasted image 20250722165346.png]]
+![Pasted image 20250722165346.png](journal/Pasted%20image%2020250722165346.png)
 It might be a bit wrong, but I'll figure that out in a bit, for now, we need to convert the 12/24V down to 3.3V for the MCU.
 
 It's a bit complicate to wire, but basically just steps down to 3V3, and then stabilizes and protects it using some capacitors and diodes, and then it needs some internal voltage too, which is what the FB pin is for.
 
-![[Pasted image 20250722165430.png]]
+![Pasted image 20250722165430.png](journal/Pasted%20image%2020250722165430.png)
 
 And just like that, we have a buck converter for the PSU! But I still kind of need to convert the 5V from the USB down to 3.3V for the MCU, so I might need to re-use the current buck converter if I can, or add another one...
 
@@ -81,7 +81,7 @@ But anyways, after reaching out to some people, they suggest I use a different b
 
 So after an absurdly long time, I got the buck converter wired for 12/24V to 5V.
 
-![[Pasted image 20250723124747.png]]
+![Pasted image 20250723124747.png](journal/Pasted%20image%2020250723124747.png)
 
 I know I don't journal everything I do with this schematic because there's so much stuff, but I'm constantly making iterations, so I also replaced all the new labels with power labels and re-organized some stuff.
 
@@ -95,41 +95,41 @@ So first things first, I need to have a common 5V rail. You see, both the USB an
 
 I'll use a simple P-Mosfet circuit:
 
-![[Pasted image 20250723171957.png]]
+![Pasted image 20250723171957.png](journal/Pasted%20image%2020250723171957.png)
 
 And then I need to add a linear regulator/LDO to step down the 5V to 3.3V for the MCU and some other operations. You see, I need the 12/24V for the steppers, the 5V rail for some fan gate and other operations, and then the 3.3V for the MCU and stuff, so it's important that I have all of these rails separate. I'm going to use the same LDO as the Manta M4P, the AMS1117 and then of course decouple it to stabilize the voltage.
 
-![[Pasted image 20250723172121.png]]
+![Pasted image 20250723172121.png](journal/Pasted%20image%2020250723172121.png)
 
 Now... we can finally get to working on the stepper drivers! The MCU and power is finished so let's add the X driver, I'm going with stepstick, because I like how easy it is to assemble and it has a bunch of extra features which are nice, and it looks sick on boards instead of using an onboard chip.
 
 So let's add the first motor driver... it's a bit tough to wire, but I think this should be good. I'm using UART to control everything and then I expose it to a 4 pin connector for the steppers.
 
-![[Pasted image 20250723205431.png]]
+![Pasted image 20250723205431.png](journal/Pasted%20image%2020250723205431.png)
 
 Now I'm going to add the endstop pins... I want to be able to switch between sensorless and endstop homing, so I'm going to include both of them, just as separate GPIO's. The Manta M4P does a jumper switch approach instead, but I'm not low on GPIO's, so I feel like controlling this in firmware is more convenient.
 
 While adding the endstops, I also fixed the wiring for the TMC2209 silent step stick, because I was basically wiring it for the IC instead of the module, and I also added caps and pullups/pulldowns and whatnot.
 
-![[Pasted image 20250724002036.png]]
+![Pasted image 20250724002036.png](journal/Pasted%20image%2020250724002036.png)
 
 And then I kind of forgot to add decoupling caps on the power pins so here:
 
-![[Pasted image 20250724005344.png]]
+![Pasted image 20250724005344.png](journal/Pasted%20image%2020250724005344.png)
 
 And then after that, I looked into it a bit more, and I messed up the single line UART, you need to converge both the RX and TX UART pins to one line, but I was just using one IO.
 
-![[Pasted image 20250724174813.png]]
+![Pasted image 20250724174813.png](journal/Pasted%20image%2020250724174813.png)
 
 After that, I planned out all the UART pins on the MCU so I didn't use them up accidently.
 
 Now, I'm like 85% confident that the schematic for the motor driver is functional, so I'm confident enough to clean up the schematic, and add all 4 drivers in (x, y, z, e0).
 
-![[Pasted image 20250724181300.png]]
+![Pasted image 20250724181300.png](journal/Pasted%20image%2020250724181300.png)
 
 Now the schematic is looking INSANELY cool.
 
-![[Pasted image 20250724181354.png]]
+![Pasted image 20250724181354.png](journal/Pasted%20image%2020250724181354.png)
 
 Now this day actually took me a really long time, because the motor drivers kept on having to be re-iterated on, and the parts were pretty complicated. At least I finally have the main part of the board on, so I can kind of get to adding features I want.
 
@@ -141,23 +141,23 @@ All the wiring should be easier from here on out happily, but I still need to be
 
 So first thing I'm going to add to the board, is the thermistors. I've decided on going with 3 thermistors because if people want more, they can always add an I2C bus, but most people aren't using more than 3. The connector is just GND with an IO pin, with some pullups and a protection for transient voltage spikes/surges.
 
-![[Pasted image 20250724215625.png]]
+![Pasted image 20250724215625.png](journal/Pasted%20image%2020250724215625.png)
 
 Now I can just multiply this for the 3 thermistors I want:
 
-![[Pasted image 20250725000144.png]]
+![Pasted image 20250725000144.png](journal/Pasted%20image%2020250725000144.png)
 
 Next, I'm going to add a connector for a servo port, because people sometimes like to have a servo for things like a bed leveler or a filament changer.
 
-![[Pasted image 20250725003545.png]]
+![Pasted image 20250725003545.png](journal/Pasted%20image%2020250725003545.png)
 
 And then I can do this cool thing, where I add an inductive probe connector, but this also functions as a BLTouch port using both the servo port AND this inductive probe connector, so it's like a triple function.
 
-![[Pasted image 20250725010157.png]]
+![Pasted image 20250725010157.png](journal/Pasted%20image%2020250725010157.png)
 
 Now I need to implement SPI on my stepsticks. Now this took me nearly 5 hours to figure out and implement, and I still think it's a bit wrong, but it's the right idea. Basically lots of TMC drivers only support SPI instead of UART, so you need to support both and be able to switch between them.
 
-![[Pasted image 20250726170427.png]]
+![Pasted image 20250726170427.png](journal/Pasted%20image%2020250726170427.png)
 
 And I'm just going to end off there because that took me so long to understand and figure out.
 
@@ -167,23 +167,23 @@ Now, I've figured out the core board, and I can add some more features like TFT 
 
 So first I implemented a TFT display using UART:
 
-![[Pasted image 20250726170600.png]]
+![Pasted image 20250726170600.png](journal/Pasted%20image%2020250726170600.png)
 
 and next, I wanted to be able to support LCD. I want to support SD cards too, so I need a connector for SD card LCD and normal parallel LCD displays, so I have to make 2 like so:
 
 It took a really long time to figure out which pins needed peripherals and fitting them onto the MCU, but I got it down pretty nicely:
 
-![[Pasted image 20250727002000.png]]
+![Pasted image 20250727002000.png](journal/Pasted%20image%2020250727002000.png)
 
 And now, I needed to refine my drivers even more. I wanted to add a jumper so that I could toggle between endstop and sensorless homing, so I only needed 1 label which would free up my MCU a bit better. I also needed to add EN apparently, so I wired that in too and cleaned up my SPI.
 
 Not just that, but I also added all the drivers, all this took me a pretty long time, but I'm just summing it up:
 
-![[Pasted image 20250727002125.png]]
+![Pasted image 20250727002125.png](journal/Pasted%20image%2020250727002125.png)
 
 This is the new connector that can toggle homing:
 
-![[Pasted image 20250727002155.png]]
+![Pasted image 20250727002155.png](journal/Pasted%20image%2020250727002155.png)
 
 It's pretty simple, it just bridges the endstop GPIO, and then you just configure it in software to disable the endstop.
 
@@ -193,7 +193,7 @@ Anyways, now I have a feeling I might need some pullups/pulldowns in some places
 
 And of course I was right, I was missing some pullups on the LCD displays, so I added that alongside a small decoupling cap:
 
-![[Pasted image 20250727005416.png]]
+![Pasted image 20250727005416.png](journal/Pasted%20image%2020250727005416.png)
 
 ## Day 6 - Finishing the Schematic - 10 Hours
 
@@ -203,12 +203,12 @@ So now let's add in the fan connector... I want to support PWM control which all
 
 Anyways, PWM is a bit chonky, so instead I'm going to use this cool switching circuit that basically like quickly turns the fans on and off to kind of replicate PWM but worse but it's smaller which I kind of like and I don't really need precision for a 3D printer.
 
-![[Pasted image 20250727021323.png]]
+![Pasted image 20250727021323.png](journal/Pasted%20image%2020250727021323.png)
 
 And then, after that I just added the basic wiring for the heating elements. It's the same as the fans, but the heating elements draw a LOT more current, so I might need to wire them a bit differently than what I currently have? But I'm not too sure...
 
-![[Pasted image 20250727024944.png]]
-![[Pasted image 20250727025002.png]]
+![Pasted image 20250727024944.png](journal/Pasted%20image%2020250727024944.png)
+![Pasted image 20250727025002.png](journal/Pasted%20image%2020250727025002.png)
 
 But anyways, now I could finally work on adding footprints to every single part. This took me about 3-4 hours, but I got every single one except the motor stepsticks. Here's the basic protocol I got it down too:
 - Small (0.1uF) decoupling caps get 0603 capacitor footprints
@@ -219,21 +219,21 @@ But anyways, now I could finally work on adding footprints to every single part.
 
 And then everything else was pretty much fully custom. The different connectors took a bit because you have to figure out the exact connector each thing is, and you don't really want to mess it up:
 
-![[Pasted image 20250728003242.png]]
+![Pasted image 20250728003242.png](journal/Pasted%20image%2020250728003242.png)
 
 Now I just needed to add the footprint for the TMC stepsticks, which I think need to be fully custom, but I'll see when I research a bit more.
 
 The TMC stepsticks took about an hour and a half, but I got a pretty nice footprint, and the tolerances are only like ± 0.015 mm which is nice.
 
-![[Pasted image 20250728015530.png]]
+![Pasted image 20250728015530.png](journal/Pasted%20image%2020250728015530.png)
 
 Now I can just add this footprint in, and my schematic will be finished!!! I also fixed up some other footprints to handle some of the crazier loads, but this schematic looks beautiful!
 
-![[Pasted image 20250728021721.png]]
+![Pasted image 20250728021721.png](journal/Pasted%20image%2020250728021721.png)
 
 And then finally, I had to add the footprints for the displays... AND EVERYTHING IS FINALLY DONE!
 
-![[Pasted image 20250728171131.png]]
+![Pasted image 20250728171131.png](journal/Pasted%20image%2020250728171131.png)
 
 ## Day 7 - The PCB - 10 Hours
 
@@ -241,27 +241,27 @@ Now today was about starting the PCB! I imported all the parts into Kicad but th
 
 So I spent about 2 hours just fixing all the minor issues with my board and then got to the real stuff. First I distributed all the components so that similar components were by each other:
 
-![[Pasted image 20250729004812.png]]
+![Pasted image 20250729004812.png](journal/Pasted%20image%2020250729004812.png)
 
 This gives me a solid idea of where everything goes, and if stuff is right or wrong. Next I worked on the MCU, now this is my first time organizing components for an MCU so I needed a lot of help from some people, but this is where I got so far:
 
-![[Pasted image 20250729004906.png]]
+![Pasted image 20250729004906.png](journal/Pasted%20image%2020250729004906.png)
 
 I think it's pretty good, but of course later, I'll ask for some suggestions from some people. 
 
 Anyways, after that, I aligned all the motor drivers together, took me a solid 2 hours or so to get used to layout tools, but I got it pretty nice and precise:
 
-![[Pasted image 20250729020705.png]]
+![Pasted image 20250729020705.png](journal/Pasted%20image%2020250729020705.png)
 
 Now before I did more work on this, I posted this in Kicad and Reddit and got lots of good suggestions.
 
-![[Pasted image 20250729152900.png]]
+![Pasted image 20250729152900.png](journal/Pasted%20image%2020250729152900.png)
 
 So I've switched the buck converter AND the LDO (though the LDO was a drop in replacement so I only changed the name), and I also fixed up the USB/PSU 5V switching mosfet.
 
 It was pretty boring so I'll just show the final schematic:
 
-![[Pasted image 20250729152952.png]]
+![Pasted image 20250729152952.png](journal/Pasted%20image%2020250729152952.png)
 
 *I also added no-connect flags to the entire MCU, but no one really care about that*
 
@@ -275,7 +275,7 @@ It probably took me a solid 2 hours to get all the footprints straight for a sec
 
 Anyways, I then proceeded to spend a couple hours laying out all the components to be perfectly organized, and I got something very nice!
 
-![[Pasted image 20250729233321.png]]
+![Pasted image 20250729233321.png](journal/Pasted%20image%2020250729233321.png)
 
 Now this organization took way longer than I thought it would because LOTS of the footprints were off, and and then I had to keep on adding suggestions from people which made me change them more, like switching the buck and the LDO, and it's a never ending back and forth.
 
@@ -283,11 +283,11 @@ Anyways there's still some stuff like the positioning on some of the things aren
 
 And after a bit of time and some more review from the guys on the KiCad discord server, I have a PRETTY solid organization:
 
-![[Pasted image 20250730001939.png]]
+![Pasted image 20250730001939.png](journal/Pasted%20image%2020250730001939.png)
 
 I then compressed all the parts together to get this:
 
-![[Pasted image 20250730024450.png]]
+![Pasted image 20250730024450.png](journal/Pasted%20image%2020250730024450.png)
 
 I make it seem easy of course, but this is after like 4 rounds of iteration so when I go to route, it's pretty clean!
 
@@ -295,19 +295,19 @@ I posted this on the KiCad discord server and then Salmon (my favorite KiCad elf
 
 And then after an insanely absurd amount of time, I've gotten to something very nice!
 
-![[Pasted image 20250730154025.png]]
+![Pasted image 20250730154025.png](journal/Pasted%20image%2020250730154025.png)
 
 Now I just have to orient all the silkscreen so it's nice and organized, and then do the finishing alignments, and it'll be ready to route!
 
 I also forgot, I still need to add some mounting holes, so after adding those, I added the edge to define the PCB, and it's pretty much ready to route!
 
-![[Pasted image 20250730195133.png]]
+![Pasted image 20250730195133.png](journal/Pasted%20image%2020250730195133.png)
 
 I did a bit more messing around with the organization just to make it a bit cleaner to route, just moving parts basically so rat's are closer to each other.
 
 Now the stackup of my board is going to be as follows: F.Cu, GND, POWER, B.Cu, so I'm going to add the 4 layers onto the board, and then do a power/GND fill:
 
-![[Pasted image 20250730202943.png]]
+![Pasted image 20250730202943.png](journal/Pasted%20image%2020250730202943.png)
 
 Anyways I'll save the rest of the routing for tomorrow!
 
@@ -317,16 +317,16 @@ Now I got a lot of stuff to do, I gotta route this entire PCB and I don't have m
 
 First I added all the via's to the ground and power planes to connect the ratlines. I also fixed some intersecting parts which wouldn't work! Way less ratlines now!
 
-![[Pasted image 20250730234508.png]]
+![Pasted image 20250730234508.png](journal/Pasted%20image%2020250730234508.png)
 
 And then I usually start with the chonky things that take lots of current or voltage, you kind of just want to route these based off current size, voltage and noise levels, and also what's close:
 
-![[Pasted image 20250731021015.png]]
+![Pasted image 20250731021015.png](journal/Pasted%20image%2020250731021015.png)
 
 Signal pins are small, high current is large, high voltage depends.
 
 And then I improved the power a bit more, and I wired some of the smaller stuff on the board!
 
-![[Pasted image 20250731025725.png]]
+![Pasted image 20250731025725.png](journal/Pasted%20image%2020250731025725.png)
 
 Mind you, these screenshots are nearly 3 hours apart, this is NOT a short process. I'm also still a beginner, so I need a lot of help from others when designing this, so I'm constantly iterating on it!
