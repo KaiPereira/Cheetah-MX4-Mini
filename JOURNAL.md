@@ -335,27 +335,27 @@ Mind you, these screenshots are nearly 3 hours apart, this is NOT a short proces
 
 And then I got a really good suggestion to move the enstop connectors so that I could fit the SD Card on, so I deleted like half my traces and put it on!
 
-![[Pasted image 20250731113428.png]]
+![Pasted image 20250731113428.png](journal/Pasted%20image%2020250731113428.png)
 
 Looks WAY better! This is absolutely sick!
 
 After all this, I did all the signal pins from the MCU pretty much, I try to stick to one color going one way, the other color going the other way, and planning the routes out in your head beforehand helps alot!
 
-![[Pasted image 20250731143619.png]]
+![Pasted image 20250731143619.png](journal/Pasted%20image%2020250731143619.png)
 
 Anyways I finished up all the signal routes, and it looks beautiful! There's not much to say about it, except for it took a LONG time.
 
-![[Pasted image 20250731193646.png]]
+![Pasted image 20250731193646.png](journal/Pasted%20image%2020250731193646.png)
 
 And now I just have to add the power plane. The VIN power rail will be the largest, followed by the 5V rail which is a bit smaller, and then I can just attach the stuff that kind of needs more and less current like so:
 
-![[Pasted image 20250731193740.png]]
+![Pasted image 20250731193740.png](journal/Pasted%20image%2020250731193740.png)
 
 The important thing I had to keep in mind during this was the large current of the heater's, and that's one of the reasons I put the VIN so close to them, because they need high current, so I can just do a ground fill there.
 
 Anyways, now I just have to fix all the DRC errors and we'll be good! There were about 30 errors, I fixed all of them up, nothing too crazy, mostly just unconnected things, and this board is BEAUTIFUL.
 
-![[Pasted image 20250731193850.png]]
+![Pasted image 20250731193850.png](journal/Pasted%20image%2020250731193850.png)
 
 At just 80x90mm this is a powerful, yet small and affordable board, it's beautiful!
 
