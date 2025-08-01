@@ -538,10 +538,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../production/",
+      "pos_files": "../production/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "board.glb",
       "svg": "",
       "vrml": ""
     },
