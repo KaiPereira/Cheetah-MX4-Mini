@@ -4,6 +4,8 @@ author: Kai Pereira
 description: A modern driver board for a 3D printer
 created_at: 2025-07-20
 ---
+### Total time spent: 86 Hours
+
 ## Day 1 - This is a **bad** idea - July 20th - 6 Hours
 
 I've decided to build a complex 3D printer driver board, similar to the Manta M4P or the SKR Mini E3, but with some added features I have yet to decide.
@@ -311,7 +313,7 @@ Now the stackup of my board is going to be as follows: F.Cu, GND, POWER, B.Cu, s
 
 Anyways I'll save the rest of the routing for tomorrow!
 
-## Day 9 - Routing the PCB
+## Day 9 - Routing the PCB - 12 Hours
 
 Now I got a lot of stuff to do, I gotta route this entire PCB and I don't have much time left to submit!
 
@@ -356,3 +358,7 @@ Anyways, now I just have to fix all the DRC errors and we'll be good! There were
 ![[Pasted image 20250731193850.png]]
 
 At just 80x90mm this is a powerful, yet small and affordable board, it's beautiful!
+
+Now I'm pretty dead inside and exhausted from making this board, this was shear insanity, but it turned out absolutely amazing!
+
+To anyone reading this, thanks so much to @Not A Salmon on discord for all of his help and the people on reddit for helping me too!
