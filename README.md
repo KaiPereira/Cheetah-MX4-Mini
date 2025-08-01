@@ -2,7 +2,7 @@
 
 The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At just 80x90mm wide, this is an extremely compact motherboard that absolutely packs a punch!
 
-![[Pasted image 20250731195200.png]]
+![Pasted image 20250731195200.png](journal/Pasted%20image%2020250731195200.png)
 ## Custom Features
 - 4 TMC stepstick drivers that support UART and SPI
 - Sensorless and endstop homing configured using jumpers
@@ -19,7 +19,7 @@ The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At j
 
 The Cheetah MX4 Mini is a complex 4 layer PCB with dedicated power and ground layers.
 
-![[Pasted image 20250731195808.png]]
+![Pasted image 20250731195808.png](journal/Pasted%20image%2020250731195808.png)
 
 It's built off the powerful STM32H series MCU to support every function you need for a printer. It's got many protection circuits, good decoupling, and is designed around high current inputs.
 
@@ -27,7 +27,7 @@ To power it, you can supply either USB-C for development, or a 12/24V PSU to dri
 
 You can upload prints via USB-C or SD Card, with support for UART and SPI drivers, and you can hot-swap the motor drivers for maximum control.
 
-![[Pasted image 20250731195854.png]]
+![Pasted image 20250731195854.png](journal/Pasted%20image%2020250731195854.png)
 
 ## Firmware
 
