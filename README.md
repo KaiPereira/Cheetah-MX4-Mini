@@ -15,5 +15,28 @@ The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At j
 - Support for USB-C and SD-Card printing
 - 4x M3 grounded mounting holes
 
+## PCB Design
 
+The Cheetah MX4 Mini is a complex 4 layer PCB with dedicated power and ground layers.
 
+![[Pasted image 20250731195808.png]]
+
+It's built off the powerful STM32H series MCU to support every function you need for a printer. It's got many protection circuits, good decoupling, and is designed around high current inputs.
+
+To power it, you can supply either USB-C for development, or a 12/24V PSU to drive the motors and all the other parts like the drivers.
+
+You can upload prints via USB-C or SD Card, with support for UART and SPI drivers, and you can hot-swap the motor drivers for maximum control.
+
+![[Pasted image 20250731195854.png]]
+
+## Firmware
+
+The Cheetah MX4 Mini uses an STM32H743VIT6 MCU, so it has support for both Marlin, Klipper and most other 3D printer firmwares!
+
+To get started, you can upload firmware to the onboard flash using the dedicated boot and reset pins!
+
+More information on firmware *coming soon...*
+
+## Credits
+
+Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition!

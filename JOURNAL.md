@@ -361,4 +361,4 @@ At just 80x90mm this is a powerful, yet small and affordable board, it's beautif
 
 Now I'm pretty dead inside and exhausted from making this board, this was shear insanity, but it turned out absolutely amazing!
 
-To anyone reading this, thanks so much to @Not A Salmon on discord for all of his help and the people on reddit for helping me too!
+To anyone reading this, thanks so much to @Fisheiyy on GH for all of his help and the people on reddit for helping me too!
