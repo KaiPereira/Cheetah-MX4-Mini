@@ -340,3 +340,19 @@ Looks WAY better! This is absolutely sick!
 After all this, I did all the signal pins from the MCU pretty much, I try to stick to one color going one way, the other color going the other way, and planning the routes out in your head beforehand helps alot!
 
 ![[Pasted image 20250731143619.png]]
+
+Anyways I finished up all the signal routes, and it looks beautiful! There's not much to say about it, except for it took a LONG time.
+
+![[Pasted image 20250731193646.png]]
+
+And now I just have to add the power plane. The VIN power rail will be the largest, followed by the 5V rail which is a bit smaller, and then I can just attach the stuff that kind of needs more and less current like so:
+
+![[Pasted image 20250731193740.png]]
+
+The important thing I had to keep in mind during this was the large current of the heater's, and that's one of the reasons I put the VIN so close to them, because they need high current, so I can just do a ground fill there.
+
+Anyways, now I just have to fix all the DRC errors and we'll be good! There were about 30 errors, I fixed all of them up, nothing too crazy, mostly just unconnected things, and this board is BEAUTIFUL.
+
+![[Pasted image 20250731193850.png]]
+
+At just 80x90mm this is a powerful, yet small and affordable board, it's beautiful!
