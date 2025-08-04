@@ -22836,7 +22836,7 @@
 			(uuid "f43eef4e-460e-4b44-82b3-5437769c6a47")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26339,7 +26339,7 @@
 		(descr "car blade fuse mini, direct solder")
 		(tags "car blade fuse mini")
 		(property "Reference" "F1"
-			(at -2.13 2.9525 180)
+			(at -2.13 2.9525 0)
 			(layer "F.SilkS")
 			(uuid "2f89e9d3-6001-4933-803c-a99820d38ff9")
 			(effects
@@ -26542,6 +26542,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KICAD9_MODELS}/Fusibile Lama MINI Type 2.stp"
+			(offset
+				(xyz 4 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -31102,7 +31113,7 @@
 			(uuid "ad972d7e-e649-4614-bd8b-01aebf296977")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
