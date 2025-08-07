@@ -48,6 +48,8 @@ The JLCPCB BOM is actually relatively cheap, coming in at about $150 for all 5 b
 
 You can find the JLCPCB BOM [here](BOM_JLCPCB.xls).
 
+And the general footprint BOM is [here](/production/BOARD_BOM.csv).
+
 ## Credits
 
 Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition!
