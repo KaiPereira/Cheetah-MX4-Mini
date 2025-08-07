@@ -183,8 +183,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2de1db00754979c",
+  "active": "480d6c1fd3177996",
   "lastOpenFiles": [
+    "journal/Pasted image 20250807131521.png",
+    "journal/Pasted image 20250807131441.png",
+    "PCB/~board.kicad_pcb.lck",
+    "PCB/~board.kicad_pro.lck",
+    "PCB/board-backups/board-2025-08-07_131332.zip",
+    "journal/Pasted image 20250807131309.png",
     "README.md~",
     "PCB/board-backups/board-2025-07-31_200805.zip",
     "PCB/fp-info-cachesnzxdx",
@@ -193,20 +199,14 @@
     "journal/Pasted image 20250731195854.png",
     "journal/Pasted image 20250731195808.png",
     "journal/Pasted image 20250731195756.png",
-    "PCB/~board.kicad_pcb.lck",
     "Pasted image 20250731195854.png",
     "PCB/~board.kicad_sch.lck",
-    "PCB/~board.kicad_pro.lck",
     "PCB/fp-info-cacheJxWYYB",
     "PCB/board-backups/board-2025-07-31_195826.zip",
     "Pasted image 20250731195808.png",
     "Pasted image 20250731195756.png",
     "journal/Pasted image 20250731195200.png",
     "Pasted image 20250731195200.png",
-    "Pasted image 20250731193850.png",
-    "Pasted image 20250731193740.png",
-    "PCB/board-backups/board-2025-07-31_000410.zip",
-    "PCB/board-backups/board-2025-07-30_235649.zip",
-    "PCB/board-backups/board-2025-07-30_235112.zip"
+    "PCB/board-backups/board-2025-07-31_000410.zip"
   ]
 }
