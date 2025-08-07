@@ -50,6 +50,8 @@ You can find the JLCPCB BOM [here](BOM_JLCPCB.xls).
 
 And the general footprint BOM is [here](/production/BOARD_BOM.csv).
 
+There's also a pick and place formatted for [JLCPCB](/production/CPL_JLCPCB.csv) and a general one if you're using a different platform [here](/production/CPL.csv).
+
 ## Credits
 
 Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition!
