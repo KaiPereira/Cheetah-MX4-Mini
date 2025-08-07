@@ -40,6 +40,14 @@ To get started, you can upload firmware to the onboard flash using the dedicated
 
 More information on firmware *coming soon...*
 
+## BOM (Bill of Materials)
+
+I've created a BOM for JLCPCB and a general footprint BOM if you want to get PCBA from somewhere else like PCBWay or something.
+
+The JLCPCB BOM is actually relatively cheap, coming in at about $150 for all 5 boards which I was pretty impressed with!
+
+You can find the JLCPCB BOM [here](BOM_JLCPCB.xls).
+
 ## Credits
 
 Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition!
