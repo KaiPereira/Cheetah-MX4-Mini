@@ -14,6 +14,7 @@ The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At j
 - Powerful STM32H743VIT6 LQFP100 MCU
 - Support for USB-C and SD-Card printing
 - 4x M3 grounded mounting holes
+- Status and Power LEDs for programming
 
 ## PCB Design
 
