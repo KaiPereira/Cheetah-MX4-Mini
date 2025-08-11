@@ -18797,7 +18797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "kai's library:CP_Radial_D6.3mm_P2.50mm"
 			(at 78.4352 30.48 0)
 			(effects
 				(font
