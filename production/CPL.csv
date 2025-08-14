@@ -1,4 +1,4 @@
-Ref,Val,Package,PosX,PosY,Rot,Side
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "C1","2.2µF","C_0805_2012Metric",173.700000,-74.100000,0.000000,top
 "C2","2.2µF","C_0805_2012Metric",167.050000,-88.925000,0.000000,top
 "C3","0.1µF","C_0603_1608Metric",186.350000,-73.500000,45.000000,top
@@ -61,7 +61,7 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "F1","Fuse","Fuse_Blade_Mini_directSolder",221.525000,-81.175000,-90.000000,top
 "J1","Micro_SD_Card","microSD_HC_Hirose_DM3AT-SF-PEJM5",170.870000,-103.850000,0.000000,top
 "J2","Conn_ARM_JTAG_SWD_10","PinHeader_2x05_P1.27mm_Vertical",182.090000,-107.470000,90.000000,top
-"J3","USB_C_Receptacle_USB2.0_14P","USB_C_Receptacle_HRO_TYPE-C-31-M-12",200.800000,-109.020000,0.000000,top
+"J3","USB_C_Receptacle_USB2.0_14P","USB_C_Receptacle_HRO_TYPE-C-31-M-12",200.800000,-108.050000,0.000000,top
 "J4","Conn_01x04","JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical",166.050000,-26.850000,0.000000,top
 "J5","Conn_01x04","PinHeader_1x04_P2.00mm_Vertical",158.800000,-58.200000,90.000000,top
 "J6","Conn_01x02","JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",233.000000,-43.650000,-90.000000,top
