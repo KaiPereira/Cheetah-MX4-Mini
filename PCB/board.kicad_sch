@@ -31380,7 +31380,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN"
+		(property "Value" "Green"
 			(at 262.636 145.034 0)
 			(effects
 				(font
