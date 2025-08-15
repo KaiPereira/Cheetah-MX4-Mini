@@ -45,9 +45,13 @@ I've created a BOM for JLCPCB and a general footprint BOM if you want to get PCB
 
 The JLCPCB BOM is actually relatively cheap, coming in at about $150 for all 5 boards which I was pretty impressed with!
 
-You can find the JLCPCB BOM [here](BOM_JLCPCB.xls).
+The LCSC BOM costs about $20 for the actual parts and then shipping will be about $20.
 
-And the general footprint BOM is [here](/production/BOARD_BOM.csv).
+You can find the JLCPCB BOM [here](/production/BOM_JLCPCB.csv).
+
+The LCSC BOM [here](/production/BOM_LCSC.csv)
+
+The general footprint BOM is [here](/production/BOM.csv).
 
 There's also a pick and place formatted for [JLCPCB](/production/CPL_JLCPCB.csv) and a general one if you're using a different platform [here](/production/CPL.csv).
 

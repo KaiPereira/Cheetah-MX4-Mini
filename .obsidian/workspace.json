@@ -183,8 +183,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "480d6c1fd3177996",
+  "active": "c2de1db00754979c",
   "lastOpenFiles": [
+    "JOURNAL.md",
+    "README.md",
+    "BOM_JLCPCB.xls.md",
     "journal/Pasted image 20250807131521.png",
     "journal/Pasted image 20250807131441.png",
     "PCB/~board.kicad_pcb.lck",
@@ -194,8 +197,6 @@
     "README.md~",
     "PCB/board-backups/board-2025-07-31_200805.zip",
     "PCB/fp-info-cachesnzxdx",
-    "JOURNAL.md",
-    "README.md",
     "journal/Pasted image 20250731195854.png",
     "journal/Pasted image 20250731195808.png",
     "journal/Pasted image 20250731195756.png",
@@ -206,7 +207,6 @@
     "Pasted image 20250731195808.png",
     "Pasted image 20250731195756.png",
     "journal/Pasted image 20250731195200.png",
-    "Pasted image 20250731195200.png",
     "PCB/board-backups/board-2025-07-31_000410.zip"
   ]
 }
