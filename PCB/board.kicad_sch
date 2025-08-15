@@ -27257,7 +27257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "kai's library:TO-252-3_TabPin2"
 			(at 266.7 187.96 0)
 			(effects
 				(font
@@ -28681,7 +28681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
+		(property "Footprint" "kai's library:TO-252-3_TabPin2"
 			(at 222.25 187.96 0)
 			(effects
 				(font
