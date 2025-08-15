@@ -1,7 +1,7 @@
 ---
-title: 3D Printer Driver Board
+title: Cheetah MX4 Mini
 author: Kai Pereira
-description: A modern driver board for a 3D printer
+description: A powerful yet compact 3D printer motherboard that supports TMC stepsticks, fans, heaters, screens and thermistors 
 created_at: 2025-07-20
 ---
 ### Total time spent: 86 Hours
