@@ -59,5 +59,5 @@ There's also a pick and place formatted for [JLCPCB](/production/CPL_JLCPCB.csv)
 
 Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition!
 
-## Other
+## License
 <img width="210" height="109" alt="oshw_facts" src="https://github.com/user-attachments/assets/fce1bd40-4ad6-4df9-8ea2-32d36613275d" />
