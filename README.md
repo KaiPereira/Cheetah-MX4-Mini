@@ -58,3 +58,6 @@ There's also a pick and place formatted for [JLCPCB](/production/CPL_JLCPCB.csv)
 ## Credits
 
 Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition!
+
+## License
+<img width="210" height="109" alt="oshw_facts(1)" src="https://github.com/user-attachments/assets/41c699e6-cadf-4830-b463-d354738823bd" />
