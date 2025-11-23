@@ -1,13 +1,13 @@
 # Cheetah MX4 Mini Motherboard
 
-<img width="1000" height="714" alt="image 4" src="https://github.com/user-attachments/assets/0f760f44-79a7-4caa-a569-a43fb2143f92" />
+![PCB Photo](renders/real_photo.png)
 
 The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At just 80x90mm wide, it's an extremely compact motherboard with many features!
 ## Custom Features
 - 4 TMC stepstick drivers that support UART and SPI
 - Sensorless and endstop homing configured using jumpers
 - 3 Thermistor input connectors
-- Support for parallel and SD card LCD's and TFT displays
+- Support for parallel and serial LCD's and TFT displays
 - 3 Fan output connectors
 - Support for the BLTouch Probe (servo and probe connectors too)
 - 2 High amperage heater outputs for a bed and miscellaneous
@@ -15,22 +15,23 @@ The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At j
 - Support for USB-C and SD-Card printing
 - 4x M3 grounded mounting holes
 - Status and Power LEDs for programming
+- 12/24V, 15A Input
 
 ## PCB Design
 
 
-The Cheetah MX4 Mini is a complex 4 layer PCB with dedicated power and ground layers.
+The Cheetah MX4 Mini is a 4 layer PCB with dedicated power and ground inner layers.
 
-![Pasted image 20250807131521.png](journal/Pasted%20image%2020250807131521.png)
-![Pasted image 20250807131441.png](journal/Pasted%20image%2020250807131441.png)
+![3D Model](journal/Pasted%20image%2020250807131521.png)
+![PCB Photo](journal/Pasted%20image%2020250807131441.png)
 
-It's built off the powerful STM32H series MCU to support every function you need for a printer. It's got many protection circuits, good decoupling, and is designed around high current inputs.
+It's built off the STM32H series MCU to support every function you need for a printer. It's got many protection circuits, good decoupling, and is designed around high current inputs.
 
 To power it, you can supply either USB-C for development, or a 12/24V PSU to drive the motors and all the other parts like the drivers.
 
-You can upload prints via USB-C or SD Card, with support for UART and SPI drivers, and you can hot-swap the motor drivers for maximum control.
+You can upload prints via USB-C or SD Card, with support for UART and SPI TMC drivers, and you can hot-swap the motor drivers for maximum control.
 
-![Pasted image 20250807131309.png](journal/Pasted%20image%2020250807131309.png)
+![Schematic Photo](journal/Pasted%20image%2020250807131309.png)
 ## Firmware
 
 The Cheetah MX4 Mini uses an STM32H743VIT6 MCU, so it has support for both Marlin, Klipper and most other 3D printer firmwares!
@@ -57,7 +58,7 @@ There's also a pick and place formatted for [JLCPCB](/production/CPL_JLCPCB.csv)
 
 ## Credits
 
-Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition! Thanks also to Hackclub. specifically @qcoral and @acornitum for running [Highway](https://highway.hackclub.com/)!
+Thanks so much to @Fisheiyy and for the folks on Reddit for reviewing and helping me with the board, without them, this board probably would have never worked or come to fruition! Thanks also to Hackclub, specifically @qcoral and @acornitum for running [Highway](https://highway.hackclub.com/) which sponsored the board!
 
 ## License
 <img width="210" height="109" alt="oshw_facts(1)" src="https://github.com/user-attachments/assets/41c699e6-cadf-4830-b463-d354738823bd" />
