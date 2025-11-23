@@ -2,7 +2,7 @@
 
 ![PCB Photo](renders/real_photo.png)
 
-The Cheetah MX4 Mini, is a powerful, yet affordable 3D printer motherboard. At just 80x90mm wide, it's an extremely compact motherboard with many features!
+The Cheetah MX4 Mini is a fully open source, powerful, yet affordable 3D printer motherboard! At just 80x90mm wide, it's an extremely compact motherboard with many cool features! This is one of the first PCB's I've ever created, so it might have some flaws.
 ## Custom Features
 - 4 TMC stepstick drivers that support UART and SPI
 - Sensorless and endstop homing configured using jumpers
