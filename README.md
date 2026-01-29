@@ -20,7 +20,7 @@ The Cheetah MX4 Mini is a fully open source, powerful, yet affordable 3D printer
 ## PCB Design
 
 
-The Cheetah MX4 Mini is a 4 layer PCB with dedicated power and ground inner layers.
+The Cheetah MX4 Mini is a 4 layer PCB with dedicated power and ground inner layers. Don't mind the messy schematic, it was one of my first boards ;) 
 
 ![3D Model](journal/Pasted%20image%2020250807131521.png)
 ![PCB Photo](journal/Pasted%20image%2020250807131441.png)
