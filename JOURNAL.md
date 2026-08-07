@@ -6,7 +6,7 @@ created_at: 2025-07-20
 ---
 ### Total time spent: 86 Hours
 
-## Day 1 - This is a **bad** idea - July 20th - 6 Hours
+## Day 1 - Getting started! - July 20th - 6 Hours
 
 I've decided to build a complex 3D printer driver board, similar to the Manta M4P or the SKR Mini E3, but with some added features I have yet to decide.
 
